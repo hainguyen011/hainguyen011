@@ -15,7 +15,7 @@ _"Powered by caffeine and curiosity."_
 
 ### Databases & Cloud
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,docker,kubernetes,aws" />
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,docker" />
 </p>
 
 
