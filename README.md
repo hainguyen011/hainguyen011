@@ -1,6 +1,6 @@
 #  Hi, I'm Hai Nguyen  
 
-Just A
+Just A Dev
 
 _"Powered by caffeine, driven by curiosity."_  
 
