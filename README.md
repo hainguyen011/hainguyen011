@@ -6,17 +6,22 @@ _"Powered by caffeine and curiosity."_
 
 
 
-## 🛠️ Tech Stack
+⚡ Tech Stack
 
-### Languages & Frameworks
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,nodejs,react,nextjs,express,nestjs" />
-</p>
+**Languages & Runtime**  
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### Databases & Cloud
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,docker" />
-</p>
+**Frameworks & SDKs**  
+![MCP](https://img.shields.io/badge/ModelContextProtocol-black?style=for-the-badge&logo=data:image/svg+xml;base64,)
+![Anthropic](https://img.shields.io/badge/Anthropic-000000?style=for-the-badge&logo=anthropic&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 
+**Database & Tools**  
+![PostgreSQL](https://img.shields.io/badge/Postgres-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-<img src="https://res.cloudinary.com/dpoyhzdop/image/upload/v1755422329/Lucid_Realism_Create_a_young_developer_boy_with_short_spiky_bl_2_mhcgtc.jpg"/>
+**DevOps & Infra**  
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
