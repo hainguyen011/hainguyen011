@@ -1,13 +1,8 @@
-# 👋 Hi, I'm Hai Nguyen  
+#  Hi, I'm Hai Nguyen  
 
-🚀 I'm a passionate **AI & Fullstack Developer** who loves building scalable systems, exploring **MCP servers**, and creating intelligent agents.  
+Just A
 
-- 🔭 Currently working on: [PiperFlow](https://github.com/your-username/piperflow)  
-- 🌱 Learning: **AI Orchestration, MCP Protocol, Cloud-native architectures**  
-- 💡 Ask me about: **Node.js, MCP, AI Agents, System Design**  
-- ⚡ Fun fact: I debug faster at 2 AM than at 2 PM 😅  
-
----
+_"Powered by caffeine, driven by curiosity."_  
 
 ## 🛠️ Tech Stack
 
