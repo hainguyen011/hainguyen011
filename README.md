@@ -1,16 +1,52 @@
-## Hi there 👋
+# 👋 Hi, I'm Hai Nguyen  
 
-<!--
-**hainguyen011/hainguyen011** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 I'm a passionate **AI & Fullstack Developer** who loves building scalable systems, exploring **MCP servers**, and creating intelligent agents.  
 
-Here are some ideas to get you started:
+- 🔭 Currently working on: [PiperFlow](https://github.com/your-username/piperflow)  
+- 🌱 Learning: **AI Orchestration, MCP Protocol, Cloud-native architectures**  
+- 💡 Ask me about: **Node.js, MCP, AI Agents, System Design**  
+- ⚡ Fun fact: I debug faster at 2 AM than at 2 PM 😅  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🛠️ Tech Stack
+
+### Languages & Frameworks
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=ts,js,py,nodejs,react,nextjs,express,nestjs" />
+</p>
+
+### Databases & Cloud
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,docker,kubernetes,aws" />
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=radical" height="165"/>
+</p>
+
+---
+
+## 🚀 Featured Projects
+- [⚡ PiperFlow](https://github.com/your-username/piperflow) → Orchestrating AI Agents with MCP Servers  
+- [🧠 AI MCP Servers](https://github.com/your-username/piperflow-mcp-servers) → Custom data + tool servers for agents  
+
+---
+
+## 🌐 Connect with Me
+<p align="left">
+  <a href="https://linkedin.com/in/your-linkedin">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
+  </a>
+  <a href="https://twitter.com/your-twitter">
+    <img src="https://skillicons.dev/icons?i=twitter" />
+  </a>
+  <a href="mailto:your.email@example.com">
+    <img src="https://skillicons.dev/icons?i=gmail" />
+  </a>
+</p>
