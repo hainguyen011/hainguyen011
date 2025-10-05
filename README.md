@@ -1,4 +1,4 @@
-# 👋 Hi There  
+# Hi !
 
 I’m just a developer. Powered by caffeine and curiosity.  
 
