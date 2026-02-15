@@ -35,7 +35,7 @@ Obsessed with system thinking, architecture, and building foundations that survi
 ![Workflow Engine](https://img.shields.io/badge/-Workflow%20Engine-2563EB)
 ![Automation Platform](https://img.shields.io/badge/-Automation%20Platform-1D4ED8)
 
-**Databases**:  
+**Data Layer**:  
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=fff) 
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=fff) 
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=fff)
