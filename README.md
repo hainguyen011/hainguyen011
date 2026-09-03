@@ -1,23 +1,26 @@
 <div align="center">
 
-<img src="./assets/glitch-banner.svg" width="100%" alt="Hai Nguyen" />
+  <!-- capsule-render transparent: server-side Orbitron font, no bg box -->
+  <img
+    src="https://capsule-render.vercel.app/api?type=transparent&height=160&text=HAI%20NGUYEN&fontSize=62&fontColor=f1f5f9&fontFamily=Orbitron&fontAlignY=45&desc=SYSTEMS%20ARCHITECT%20%20/%20%20AI%20SYSTEMS%20FOUNDER%20%20@%20%20I2FLABS&descFontSize=12&descAlignY=72&descColor=475569"
+    width="100%"
+    alt="Hai Nguyen"
+  />
 
-<br/>
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=1000&color=00DF8F&center=true&vCenter=true&width=680&height=28&lines=Autonomous+agent+kernel+loaded+%E2%80%94+ACTIVE;47+cognitive+threads+initialized;Aevum+OS+build+sequence+resumed;%5BERROR%5D+Human+limitations+not+found;Compiling+the+future...+ETA%3A+unknown"
+    alt="System log"
+  />
 
-<img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=1000&color=00DF8F&center=true&vCenter=true&width=680&height=28&lines=Autonomous+agent+kernel+loaded+%E2%80%94+ACTIVE;47+cognitive+threads+initialized;Aevum+OS+build+sequence+resumed;%5BERROR%5D+Human+limitations+not+found;Compiling+the+future...+ETA%3A+unknown"
-  alt="System log"
-/>
+  <br/><br/>
 
-<br/><br/>
-
-![](https://img.shields.io/badge/Founder-I2FLabs-000?style=flat-square&labelColor=000&color=0284c7&logo=none)
-&nbsp;
-![](https://img.shields.io/badge/Role-Systems%20Architect-000?style=flat-square&labelColor=000&color=00DF8F)
-&nbsp;
-![](https://img.shields.io/badge/Focus-Autonomous%20Multi--Agent%20OS-000?style=flat-square&labelColor=000&color=7B61FF)
-&nbsp;
-![](https://komarev.com/ghpvc/?username=hainguyen011&style=flat-square&color=0284c7&label=profile+reads)
+  ![](https://img.shields.io/badge/Founder-I2FLabs-000?style=flat-square&labelColor=000&color=0284c7)
+  &nbsp;
+  ![](https://img.shields.io/badge/Role-Systems%20Architect-000?style=flat-square&labelColor=000&color=00DF8F)
+  &nbsp;
+  ![](https://img.shields.io/badge/Focus-Autonomous%20Multi--Agent%20OS-000?style=flat-square&labelColor=000&color=7B61FF)
+  &nbsp;
+  ![](https://komarev.com/ghpvc/?username=hainguyen011&style=flat-square&color=0284c7&label=profile+reads)
 
 </div>
 
@@ -144,12 +147,12 @@ hainguyen011@i2flabs:~$ whoami --verbose
 
 <div align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=hainguyen011&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000&title_color=00DF8F&icon_color=0284C7&text_color=94a3b8&include_all_commits=true&count_private=true"
+    src="https://github-readme-stats.vercel.app/api?username=hainguyen011&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=00DF8F&icon_color=0284C7&text_color=94a3b8&include_all_commits=true&count_private=true"
     height="165"
   />
   &nbsp;
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=hainguyen011&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000&title_color=00DF8F&text_color=94a3b8&langs_count=8"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=hainguyen011&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=00DF8F&text_color=94a3b8&langs_count=8"
     height="165"
   />
 </div>
@@ -157,7 +160,7 @@ hainguyen011@i2flabs:~$ whoami --verbose
 <div align="center">
   <br/>
   <img
-    src="https://streak-stats.demolab.com/?user=hainguyen011&theme=tokyonight&hide_border=true&background=000000&ring=00DF8F&fire=0284C7&currStreakLabel=00DF8F&sideLabels=94a3b8&sideNums=ffffff&dates=94a3b8"
+    src="https://streak-stats.demolab.com/?user=hainguyen011&theme=tokyonight&hide_border=true&background=00000000&ring=00DF8F&fire=0284C7&currStreakLabel=00DF8F&sideLabels=94a3b8&sideNums=ffffff&dates=94a3b8"
   />
 </div>
 
