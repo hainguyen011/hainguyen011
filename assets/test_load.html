@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+<img src="matrix-drone.svg" onload="console.log('IMG LOADED OK')" onerror="console.log('IMG LOAD ERROR')" />
+<script>
+  const img = new Image();
+  img.onload = () => console.log('NEW IMAGE LOADED OK');
+  img.onerror = (e) => console.log('NEW IMAGE ERROR');
+  img.src = 'matrix-drone.svg';
+</script>
+</body>
+</html>

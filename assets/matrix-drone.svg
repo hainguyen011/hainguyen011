@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 190" width="100%" height="190" shape-rendering="crispEdges">
   <defs>
-    <style>
+    <style><![CDATA[
       text {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         user-select: none;
       }
 
-      /* Dino Running legs alternation (0.15s cycle) */
+      /* Dino Running legs alternation */
       @keyframes step-a {
         0%, 49.9% { opacity: 1; }
         50%, 100% { opacity: 0; }
@@ -25,7 +25,7 @@
       }
       .dino-runner { animation: run-bob 0.15s ease-in-out infinite; }
 
-      /* Drone Rotor High-Speed Spin (0.08s cycle) */
+      /* Drone Rotor High-Speed Spin */
       @keyframes rotor-a {
         0%, 49.9% { opacity: 1; }
         50%, 100% { opacity: 0.3; }
@@ -37,7 +37,7 @@
       .anim-rotor-a { animation: rotor-a 0.08s steps(1, end) infinite; }
       .anim-rotor-b { animation: rotor-b 0.08s steps(1, end) infinite; }
 
-      /* Drone Hovering & Forward Lean Flight Motion */
+      /* Drone Hovering and Forward Lean Flight Motion */
       @keyframes drone-flight-1 {
         0%, 100% { transform: translateY(0px) rotate(6deg); }
         50%      { transform: translateY(-6px) rotate(8deg); }
@@ -86,12 +86,12 @@
         100% { opacity: 0; transform: translateY(8px); }
       }
       .sweat { animation: sweat-drop 0.45s linear infinite; }
-    </style>
+    ]]></style>
   </defs>
 
   <!-- 100% Clean Transparent Canvas -->
 
-  <!-- 1. CHROME BROWSER "NO INTERNET" AI-ERA DEV MEME HEADER (Pure ASCII) -->
+  <!-- 1. CHROME BROWSER "NO INTERNET" AI-ERA DEV MEME HEADER -->
   <text x="24" y="24" font-size="11.5" font-weight="700" fill="#ffffff" opacity="0.9" letter-spacing="2">[ AI NOT CONNECTED // ERR_AI_DISCONNECTED ]</text>
   <text x="926" y="24" text-anchor="end" font-size="10.5" font-weight="600" fill="#ffffff" opacity="0.75" letter-spacing="1.5">PANIC: FORCED TO CODE MANUALLY // TOKENS: 0</text>
   
@@ -112,7 +112,7 @@
         <g class="anim-rotor-a"><rect x="0" y="0" width="20" height="2" fill="#ffffff"/><rect x="56" y="0" width="20" height="2" fill="#ffffff"/></g>
         <g class="anim-rotor-b"><rect x="4" y="0" width="12" height="2" fill="#ffffff"/><rect x="60" y="0" width="12" height="2" fill="#ffffff"/></g>
       </g>
-      <!-- Drone Quadcopter Body, Camera & Landing Skids -->
+      <!-- Drone Quadcopter Body, Camera and Landing Skids -->
       <rect x="8" y="0" width="4" height="2" fill="#ffffff"/><rect x="64" y="0" width="4" height="2" fill="#ffffff"/><rect x="8" y="2" width="4" height="2" fill="#ffffff"/><rect x="64" y="2" width="4" height="2" fill="#ffffff"/><rect x="0" y="4" width="16" height="2" fill="#ffffff"/><rect x="28" y="4" width="20" height="2" fill="#ffffff"/><rect x="60" y="4" width="16" height="2" fill="#ffffff"/><rect x="0" y="6" width="16" height="2" fill="#ffffff"/><rect x="24" y="6" width="28" height="2" fill="#ffffff"/><rect x="60" y="6" width="16" height="2" fill="#ffffff"/><rect x="8" y="8" width="4" height="2" fill="#ffffff"/><rect x="24" y="8" width="28" height="2" fill="#ffffff"/><rect x="64" y="8" width="4" height="2" fill="#ffffff"/><rect x="8" y="10" width="4" height="2" fill="#ffffff"/><rect x="24" y="10" width="4" height="2" fill="#ffffff"/><rect x="48" y="10" width="4" height="2" fill="#ffffff"/><rect x="64" y="10" width="4" height="2" fill="#ffffff"/><rect x="24" y="12" width="4" height="2" fill="#ffffff"/><rect x="34" y="12" width="8" height="2" fill="#ffffff"/><rect x="48" y="12" width="4" height="2" fill="#ffffff"/><rect x="24" y="14" width="4" height="2" fill="#ffffff"/><rect x="32" y="14" width="4" height="2" fill="#ffffff"/><rect x="40" y="14" width="4" height="2" fill="#ffffff"/><rect x="48" y="14" width="4" height="2" fill="#ffffff"/><rect x="24" y="16" width="4" height="2" fill="#ffffff"/><rect x="32" y="16" width="12" height="2" fill="#ffffff"/><rect x="48" y="16" width="4" height="2" fill="#ffffff"/><rect x="24" y="18" width="4" height="2" fill="#ffffff"/><rect x="32" y="18" width="4" height="2" fill="#ffffff"/><rect x="40" y="18" width="4" height="2" fill="#ffffff"/><rect x="48" y="18" width="4" height="2" fill="#ffffff"/><rect x="24" y="20" width="4" height="2" fill="#ffffff"/><rect x="34" y="20" width="8" height="2" fill="#ffffff"/><rect x="48" y="20" width="4" height="2" fill="#ffffff"/><rect x="24" y="22" width="4" height="2" fill="#ffffff"/><rect x="48" y="22" width="4" height="2" fill="#ffffff"/><rect x="24" y="24" width="28" height="2" fill="#ffffff"/><rect x="26" y="26" width="24" height="2" fill="#ffffff"/><rect x="18" y="28" width="4" height="2" fill="#ffffff"/><rect x="30" y="28" width="16" height="2" fill="#ffffff"/><rect x="54" y="28" width="4" height="2" fill="#ffffff"/><rect x="16" y="30" width="4" height="2" fill="#ffffff"/><rect x="32" y="30" width="12" height="2" fill="#ffffff"/><rect x="56" y="30" width="4" height="2" fill="#ffffff"/><rect x="14" y="32" width="4" height="2" fill="#ffffff"/><rect x="34" y="32" width="8" height="2" fill="#ffffff"/><rect x="58" y="32" width="4" height="2" fill="#ffffff"/><rect x="12" y="34" width="4" height="2" fill="#ffffff"/><rect x="60" y="34" width="4" height="2" fill="#ffffff"/><rect x="10" y="36" width="4" height="2" fill="#ffffff"/><rect x="62" y="36" width="4" height="2" fill="#ffffff"/><rect x="10" y="38" width="4" height="2" fill="#ffffff"/><rect x="62" y="38" width="4" height="2" fill="#ffffff"/><rect x="10" y="40" width="4" height="2" fill="#ffffff"/><rect x="62" y="40" width="4" height="2" fill="#ffffff"/>
       <!-- Blaster / Targeting Flash on Gimbal -->
       <circle class="muzzle-flash" cx="38.0" cy="28.0" r="3" fill="#ffffff" opacity="0.95"/>
@@ -134,7 +134,7 @@
         <g class="anim-rotor-b"><rect x="0" y="0" width="20" height="2" fill="#ffffff"/><rect x="56" y="0" width="20" height="2" fill="#ffffff"/></g>
         <g class="anim-rotor-a"><rect x="4" y="0" width="12" height="2" fill="#ffffff"/><rect x="60" y="0" width="12" height="2" fill="#ffffff"/></g>
       </g>
-      <!-- Drone Quadcopter Body, Camera & Landing Skids -->
+      <!-- Drone Quadcopter Body, Camera and Landing Skids -->
       <rect x="8" y="0" width="4" height="2" fill="#ffffff"/><rect x="64" y="0" width="4" height="2" fill="#ffffff"/><rect x="8" y="2" width="4" height="2" fill="#ffffff"/><rect x="64" y="2" width="4" height="2" fill="#ffffff"/><rect x="0" y="4" width="16" height="2" fill="#ffffff"/><rect x="28" y="4" width="20" height="2" fill="#ffffff"/><rect x="60" y="4" width="16" height="2" fill="#ffffff"/><rect x="0" y="6" width="16" height="2" fill="#ffffff"/><rect x="24" y="6" width="28" height="2" fill="#ffffff"/><rect x="60" y="6" width="16" height="2" fill="#ffffff"/><rect x="8" y="8" width="4" height="2" fill="#ffffff"/><rect x="24" y="8" width="28" height="2" fill="#ffffff"/><rect x="64" y="8" width="4" height="2" fill="#ffffff"/><rect x="8" y="10" width="4" height="2" fill="#ffffff"/><rect x="24" y="10" width="4" height="2" fill="#ffffff"/><rect x="48" y="10" width="4" height="2" fill="#ffffff"/><rect x="64" y="10" width="4" height="2" fill="#ffffff"/><rect x="24" y="12" width="4" height="2" fill="#ffffff"/><rect x="34" y="12" width="8" height="2" fill="#ffffff"/><rect x="48" y="12" width="4" height="2" fill="#ffffff"/><rect x="24" y="14" width="4" height="2" fill="#ffffff"/><rect x="32" y="14" width="4" height="2" fill="#ffffff"/><rect x="40" y="14" width="4" height="2" fill="#ffffff"/><rect x="48" y="14" width="4" height="2" fill="#ffffff"/><rect x="24" y="16" width="4" height="2" fill="#ffffff"/><rect x="32" y="16" width="12" height="2" fill="#ffffff"/><rect x="48" y="16" width="4" height="2" fill="#ffffff"/><rect x="24" y="18" width="4" height="2" fill="#ffffff"/><rect x="32" y="18" width="4" height="2" fill="#ffffff"/><rect x="40" y="18" width="4" height="2" fill="#ffffff"/><rect x="48" y="18" width="4" height="2" fill="#ffffff"/><rect x="24" y="20" width="4" height="2" fill="#ffffff"/><rect x="34" y="20" width="8" height="2" fill="#ffffff"/><rect x="48" y="20" width="4" height="2" fill="#ffffff"/><rect x="24" y="22" width="4" height="2" fill="#ffffff"/><rect x="48" y="22" width="4" height="2" fill="#ffffff"/><rect x="24" y="24" width="28" height="2" fill="#ffffff"/><rect x="26" y="26" width="24" height="2" fill="#ffffff"/><rect x="18" y="28" width="4" height="2" fill="#ffffff"/><rect x="30" y="28" width="16" height="2" fill="#ffffff"/><rect x="54" y="28" width="4" height="2" fill="#ffffff"/><rect x="16" y="30" width="4" height="2" fill="#ffffff"/><rect x="32" y="30" width="12" height="2" fill="#ffffff"/><rect x="56" y="30" width="4" height="2" fill="#ffffff"/><rect x="14" y="32" width="4" height="2" fill="#ffffff"/><rect x="34" y="32" width="8" height="2" fill="#ffffff"/><rect x="58" y="32" width="4" height="2" fill="#ffffff"/><rect x="12" y="34" width="4" height="2" fill="#ffffff"/><rect x="60" y="34" width="4" height="2" fill="#ffffff"/><rect x="10" y="36" width="4" height="2" fill="#ffffff"/><rect x="62" y="36" width="4" height="2" fill="#ffffff"/><rect x="10" y="38" width="4" height="2" fill="#ffffff"/><rect x="62" y="38" width="4" height="2" fill="#ffffff"/><rect x="10" y="40" width="4" height="2" fill="#ffffff"/><rect x="62" y="40" width="4" height="2" fill="#ffffff"/>
       <!-- Blaster / Targeting Flash on Gimbal -->
       <circle class="muzzle-flash" cx="38.0" cy="28.0" r="3" fill="#ffffff" opacity="0.95"/>
