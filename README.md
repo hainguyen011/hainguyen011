@@ -22,7 +22,6 @@
 
 </div>
 
----
 
 ## Active Projects
 
@@ -63,7 +62,6 @@
   </tr>
 </table>
 
----
 
 ## Metrics
 
@@ -83,7 +81,6 @@
   />
 </div>
 
----
 
 ## 3D Contribution Graph
 
@@ -95,7 +92,6 @@
   </picture>
 </div>
 
----
 
 <div align="center">
   <sub>
