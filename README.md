@@ -1,8 +1,8 @@
 <div align="center">
 
-  <!-- I2FLABS LOGO -->
+  <!-- I2FLABS BRAND HEADER -->
   <a href="https://github.com/hainguyen011">
-    <img src="./assets/I2FLabs-logo.png" width="110" alt="I2FLabs" style="filter: drop-shadow(0 0 16px rgba(255,255,255,0.2));" />
+    <img src="./assets/i2flabs-header.svg" height="82" alt="I2FLabs Vietnam — Innovation To Future Lab" />
   </a>
 
   <br/><br/>
