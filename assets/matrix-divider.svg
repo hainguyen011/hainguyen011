@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 48" width="100%" height="48">
+    <defs>
+      <style>
+        text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; user-select: none; }
+        @keyframes stream-fall {
+          0%   { transform: translateY(-40px); }
+          100% { transform: translateY(55px); }
+        }
+        .dc0 { animation: stream-fall 1.8s linear infinite 0s; }
+.dc1 { animation: stream-fall 2.2s linear infinite -0.47s; }
+.dc2 { animation: stream-fall 2.6s linear infinite -0.94s; }
+.dc3 { animation: stream-fall 3.0s linear infinite -1.41s; }
+.dc4 { animation: stream-fall 1.8s linear infinite -1.88s; }
+.dc5 { animation: stream-fall 2.2s linear infinite -2.35s; }
+.dc6 { animation: stream-fall 2.6s linear infinite -2.82s; }
+.dc7 { animation: stream-fall 3.0s linear infinite -0.29s; }
+.dc8 { animation: stream-fall 1.8s linear infinite -0.76s; }
+.dc9 { animation: stream-fall 2.2s linear infinite -1.23s; }
+.dc10 { animation: stream-fall 2.6s linear infinite -1.7s; }
+.dc11 { animation: stream-fall 3.0s linear infinite -2.17s; }
+.dc12 { animation: stream-fall 1.8s linear infinite -2.64s; }
+.dc13 { animation: stream-fall 2.2s linear infinite -0.11s; }
+.dc14 { animation: stream-fall 2.6s linear infinite -0.58s; }
+.dc15 { animation: stream-fall 3.0s linear infinite -1.05s; }
+.dc16 { animation: stream-fall 1.8s linear infinite -1.52s; }
+.dc17 { animation: stream-fall 2.2s linear infinite -1.99s; }
+.dc18 { animation: stream-fall 2.6s linear infinite -2.46s; }
+.dc19 { animation: stream-fall 3.0s linear infinite -2.93s; }
+.dc20 { animation: stream-fall 1.8s linear infinite -0.4s; }
+.dc21 { animation: stream-fall 2.2s linear infinite -0.87s; }
+.dc22 { animation: stream-fall 2.6s linear infinite -1.34s; }
+.dc23 { animation: stream-fall 3.0s linear infinite -1.81s; }
+.dc24 { animation: stream-fall 1.8s linear infinite -2.28s; }
+.dc25 { animation: stream-fall 2.2s linear infinite -2.75s; }
+.dc26 { animation: stream-fall 2.6s linear infinite -0.22s; }
+.dc27 { animation: stream-fall 3.0s linear infinite -0.69s; }
+.dc28 { animation: stream-fall 1.8s linear infinite -1.16s; }
+.dc29 { animation: stream-fall 2.2s linear infinite -1.63s; }
+
+      </style>
+    </defs>
+    <g><g class="dc0"><text x="10" y="0" fill="#ffffff" opacity="0.08" font-size="11">D</text><text x="10" y="15" fill="#ffffff" opacity="0.20" font-size="11">4</text><text x="10" y="30" fill="#ffffff" opacity="0.32" font-size="11">V</text></g>
+<g class="dc1"><text x="43" y="0" fill="#ffffff" opacity="0.08" font-size="11">$</text><text x="43" y="15" fill="#ffffff" opacity="0.20" font-size="11">A</text><text x="43" y="30" fill="#ffffff" opacity="0.32" font-size="11">P</text></g>
+<g class="dc2"><text x="77" y="0" fill="#ffffff" opacity="0.08" font-size="11">|</text><text x="77" y="15" fill="#ffffff" opacity="0.20" font-size="11">E</text><text x="77" y="30" fill="#ffffff" opacity="0.32" font-size="11">_</text></g>
+<g class="dc3"><text x="110" y="0" fill="#ffffff" opacity="0.08" font-size="11">2</text><text x="110" y="15" fill="#ffffff" opacity="0.20" font-size="11">8</text><text x="110" y="30" fill="#ffffff" opacity="0.32" font-size="11">G</text></g>
+<g class="dc4"><text x="143" y="0" fill="#ffffff" opacity="0.08" font-size="11">G</text><text x="143" y="15" fill="#ffffff" opacity="0.20" font-size="11">Z</text><text x="143" y="30" fill="#ffffff" opacity="0.32" font-size="11">I</text></g>
+<g class="dc5"><text x="177" y="0" fill="#ffffff" opacity="0.08" font-size="11">L</text><text x="177" y="15" fill="#ffffff" opacity="0.20" font-size="11">O</text><text x="177" y="30" fill="#ffffff" opacity="0.32" font-size="11">M</text></g>
+<g class="dc6"><text x="210" y="0" fill="#ffffff" opacity="0.08" font-size="11">N</text><text x="210" y="15" fill="#ffffff" opacity="0.20" font-size="11">I</text><text x="210" y="30" fill="#ffffff" opacity="0.32" font-size="11">S</text></g>
+<g class="dc7"><text x="243" y="0" fill="#ffffff" opacity="0.08" font-size="11">*</text><text x="243" y="15" fill="#ffffff" opacity="0.20" font-size="11">9</text><text x="243" y="30" fill="#ffffff" opacity="0.32" font-size="11">X</text></g>
+<g class="dc8"><text x="277" y="0" fill="#ffffff" opacity="0.08" font-size="11">5</text><text x="277" y="15" fill="#ffffff" opacity="0.20" font-size="11">B</text><text x="277" y="30" fill="#ffffff" opacity="0.32" font-size="11">T</text></g>
+<g class="dc9"><text x="310" y="0" fill="#ffffff" opacity="0.08" font-size="11">-</text><text x="310" y="15" fill="#ffffff" opacity="0.20" font-size="11">X</text><text x="310" y="30" fill="#ffffff" opacity="0.32" font-size="11">X</text></g>
+<g class="dc10"><text x="343" y="0" fill="#ffffff" opacity="0.08" font-size="11">D</text><text x="343" y="15" fill="#ffffff" opacity="0.20" font-size="11">F</text><text x="343" y="30" fill="#ffffff" opacity="0.32" font-size="11">?</text></g>
+<g class="dc11"><text x="377" y="0" fill="#ffffff" opacity="0.08" font-size="11">C</text><text x="377" y="15" fill="#ffffff" opacity="0.20" font-size="11">5</text><text x="377" y="30" fill="#ffffff" opacity="0.32" font-size="11">6</text></g>
+<g class="dc12"><text x="410" y="0" fill="#ffffff" opacity="0.08" font-size="11">^</text><text x="410" y="15" fill="#ffffff" opacity="0.20" font-size="11">B</text><text x="410" y="30" fill="#ffffff" opacity="0.32" font-size="11">#</text></g>
+<g class="dc13"><text x="443" y="0" fill="#ffffff" opacity="0.08" font-size="11">M</text><text x="443" y="15" fill="#ffffff" opacity="0.20" font-size="11">Z</text><text x="443" y="30" fill="#ffffff" opacity="0.32" font-size="11">R</text></g>
+<g class="dc14"><text x="477" y="0" fill="#ffffff" opacity="0.08" font-size="11">W</text><text x="477" y="15" fill="#ffffff" opacity="0.20" font-size="11">Q</text><text x="477" y="30" fill="#ffffff" opacity="0.32" font-size="11">N</text></g>
+<g class="dc15"><text x="510" y="0" fill="#ffffff" opacity="0.08" font-size="11">4</text><text x="510" y="15" fill="#ffffff" opacity="0.20" font-size="11">V</text><text x="510" y="30" fill="#ffffff" opacity="0.32" font-size="11">-</text></g>
+<g class="dc16"><text x="543" y="0" fill="#ffffff" opacity="0.08" font-size="11">O</text><text x="543" y="15" fill="#ffffff" opacity="0.20" font-size="11">?</text><text x="543" y="30" fill="#ffffff" opacity="0.32" font-size="11">_</text></g>
+<g class="dc17"><text x="577" y="0" fill="#ffffff" opacity="0.08" font-size="11">7</text><text x="577" y="15" fill="#ffffff" opacity="0.20" font-size="11">M</text><text x="577" y="30" fill="#ffffff" opacity="0.32" font-size="11">I</text></g>
+<g class="dc18"><text x="610" y="0" fill="#ffffff" opacity="0.08" font-size="11">B</text><text x="610" y="15" fill="#ffffff" opacity="0.20" font-size="11">T</text><text x="610" y="30" fill="#ffffff" opacity="0.32" font-size="11">1</text></g>
+<g class="dc19"><text x="643" y="0" fill="#ffffff" opacity="0.08" font-size="11">Z</text><text x="643" y="15" fill="#ffffff" opacity="0.20" font-size="11">G</text><text x="643" y="30" fill="#ffffff" opacity="0.32" font-size="11">%</text></g>
+<g class="dc20"><text x="677" y="0" fill="#ffffff" opacity="0.08" font-size="11">-</text><text x="677" y="15" fill="#ffffff" opacity="0.20" font-size="11">O</text><text x="677" y="30" fill="#ffffff" opacity="0.32" font-size="11">N</text></g>
+<g class="dc21"><text x="710" y="0" fill="#ffffff" opacity="0.08" font-size="11">2</text><text x="710" y="15" fill="#ffffff" opacity="0.20" font-size="11">+</text><text x="710" y="30" fill="#ffffff" opacity="0.32" font-size="11">^</text></g>
+<g class="dc22"><text x="743" y="0" fill="#ffffff" opacity="0.08" font-size="11">9</text><text x="743" y="15" fill="#ffffff" opacity="0.20" font-size="11">?</text><text x="743" y="30" fill="#ffffff" opacity="0.32" font-size="11">U</text></g>
+<g class="dc23"><text x="777" y="0" fill="#ffffff" opacity="0.08" font-size="11">3</text><text x="777" y="15" fill="#ffffff" opacity="0.20" font-size="11">1</text><text x="777" y="30" fill="#ffffff" opacity="0.32" font-size="11">-</text></g>
+<g class="dc24"><text x="810" y="0" fill="#ffffff" opacity="0.08" font-size="11">7</text><text x="810" y="15" fill="#ffffff" opacity="0.20" font-size="11">-</text><text x="810" y="30" fill="#ffffff" opacity="0.32" font-size="11">T</text></g>
+<g class="dc25"><text x="843" y="0" fill="#ffffff" opacity="0.08" font-size="11">L</text><text x="843" y="15" fill="#ffffff" opacity="0.20" font-size="11">|</text><text x="843" y="30" fill="#ffffff" opacity="0.32" font-size="11">Y</text></g>
+<g class="dc26"><text x="877" y="0" fill="#ffffff" opacity="0.08" font-size="11">O</text><text x="877" y="15" fill="#ffffff" opacity="0.20" font-size="11">H</text><text x="877" y="30" fill="#ffffff" opacity="0.32" font-size="11">A</text></g>
+<g class="dc27"><text x="910" y="0" fill="#ffffff" opacity="0.08" font-size="11">6</text><text x="910" y="15" fill="#ffffff" opacity="0.20" font-size="11">|</text><text x="910" y="30" fill="#ffffff" opacity="0.32" font-size="11">Z</text></g>
+<g class="dc28"><text x="943" y="0" fill="#ffffff" opacity="0.08" font-size="11">X</text><text x="943" y="15" fill="#ffffff" opacity="0.20" font-size="11">$</text><text x="943" y="30" fill="#ffffff" opacity="0.32" font-size="11">3</text></g>
+<g class="dc29"><text x="977" y="0" fill="#ffffff" opacity="0.08" font-size="11">%</text><text x="977" y="15" fill="#ffffff" opacity="0.20" font-size="11">6</text><text x="977" y="30" fill="#ffffff" opacity="0.32" font-size="11">_</text></g>
+</g>
+  </svg>

@@ -1,368 +1,380 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 260" width="100%" height="260">
-  <defs>
-    <style>
-      text {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-        user-select: none;
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="100%" height="340">
+    <defs>
+      <style>
+        text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; user-select: none; }
+        @keyframes rain-fall {
+          0%   { transform: translateY(-320px); }
+          100% { transform: translateY(350px); }
+        }
+        .c0 { animation: rain-fall 2.4s linear infinite 0s; }
+.c1 { animation: rain-fall 2.9s linear infinite -0.53s; }
+.c2 { animation: rain-fall 3.4s linear infinite -1.06s; }
+.c3 { animation: rain-fall 3.9s linear infinite -1.59s; }
+.c4 { animation: rain-fall 4.4s linear infinite -2.12s; }
+.c5 { animation: rain-fall 4.9s linear infinite -2.65s; }
+.c6 { animation: rain-fall 2.4s linear infinite -3.18s; }
+.c7 { animation: rain-fall 2.9s linear infinite -3.71s; }
+.c8 { animation: rain-fall 3.4s linear infinite -0.24s; }
+.c9 { animation: rain-fall 3.9s linear infinite -0.77s; }
+.c10 { animation: rain-fall 4.4s linear infinite -1.3s; }
+.c11 { animation: rain-fall 4.9s linear infinite -1.83s; }
+.c12 { animation: rain-fall 2.4s linear infinite -2.36s; }
+.c13 { animation: rain-fall 2.9s linear infinite -2.89s; }
+.c14 { animation: rain-fall 3.4s linear infinite -3.42s; }
+.c15 { animation: rain-fall 3.9s linear infinite -3.95s; }
+.c16 { animation: rain-fall 4.4s linear infinite -0.48s; }
+.c17 { animation: rain-fall 4.9s linear infinite -1.01s; }
+.c18 { animation: rain-fall 2.4s linear infinite -1.54s; }
+.c19 { animation: rain-fall 2.9s linear infinite -2.07s; }
+.c20 { animation: rain-fall 3.4s linear infinite -2.6s; }
+.c21 { animation: rain-fall 3.9s linear infinite -3.13s; }
+.c22 { animation: rain-fall 4.4s linear infinite -3.66s; }
+.c23 { animation: rain-fall 4.9s linear infinite -0.19s; }
+.c24 { animation: rain-fall 2.4s linear infinite -0.72s; }
+.c25 { animation: rain-fall 2.9s linear infinite -1.25s; }
+.c26 { animation: rain-fall 3.4s linear infinite -1.78s; }
+.c27 { animation: rain-fall 3.9s linear infinite -2.31s; }
+.c28 { animation: rain-fall 4.4s linear infinite -2.84s; }
+.c29 { animation: rain-fall 4.9s linear infinite -3.37s; }
+.c30 { animation: rain-fall 2.4s linear infinite -3.9s; }
+.c31 { animation: rain-fall 2.9s linear infinite -0.43s; }
+.c32 { animation: rain-fall 3.4s linear infinite -0.96s; }
+.c33 { animation: rain-fall 3.9s linear infinite -1.49s; }
+
+        
+      @keyframes kf-0 {
+        0% { opacity: 0; }
+        0.00% { opacity: 0; }
+        0.01% { opacity: 1; }
+        1.88% { opacity: 1; }
+        1.89% { opacity: 0; }
+        100% { opacity: 0; }
       }
-      @keyframes rain-fall {
-        0%   { transform: translateY(-260px); }
-        100% { transform: translateY(280px); }
-      }
-      .c0 { animation: rain-fall 2.6s linear infinite 0s; }
-.c1 { animation: rain-fall 3.2s linear infinite -0.61s; }
-.c2 { animation: rain-fall 3.8s linear infinite -1.22s; }
-.c3 { animation: rain-fall 4.4s linear infinite -1.83s; }
-.c4 { animation: rain-fall 5.0s linear infinite -2.44s; }
-.c5 { animation: rain-fall 2.6s linear infinite -3.05s; }
-.c6 { animation: rain-fall 3.2s linear infinite -3.66s; }
-.c7 { animation: rain-fall 3.8s linear infinite -0.27s; }
-.c8 { animation: rain-fall 4.4s linear infinite -0.88s; }
-.c9 { animation: rain-fall 5.0s linear infinite -1.49s; }
-.c10 { animation: rain-fall 2.6s linear infinite -2.1s; }
-.c11 { animation: rain-fall 3.2s linear infinite -2.71s; }
-.c12 { animation: rain-fall 3.8s linear infinite -3.32s; }
-.c13 { animation: rain-fall 4.4s linear infinite -3.93s; }
-.c14 { animation: rain-fall 5.0s linear infinite -0.54s; }
-.c15 { animation: rain-fall 2.6s linear infinite -1.15s; }
-.c16 { animation: rain-fall 3.2s linear infinite -1.76s; }
-.c17 { animation: rain-fall 3.8s linear infinite -2.37s; }
-.c18 { animation: rain-fall 4.4s linear infinite -2.98s; }
-.c19 { animation: rain-fall 5.0s linear infinite -3.59s; }
-.c20 { animation: rain-fall 2.6s linear infinite -0.2s; }
-.c21 { animation: rain-fall 3.2s linear infinite -0.81s; }
-.c22 { animation: rain-fall 3.8s linear infinite -1.42s; }
-.c23 { animation: rain-fall 4.4s linear infinite -2.03s; }
-.c24 { animation: rain-fall 5.0s linear infinite -2.64s; }
-.c25 { animation: rain-fall 2.6s linear infinite -3.25s; }
-.c26 { animation: rain-fall 3.2s linear infinite -3.86s; }
-.c27 { animation: rain-fall 3.8s linear infinite -0.47s; }
-
-      
-    @keyframes kf-0 {
-      0% { opacity: 0; }
-      0.00% { opacity: 0; }
-      0.01% { opacity: 1; }
-      1.97% { opacity: 1; }
-      1.98% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-0 { animation: kf-0 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-1 {
-      0% { opacity: 0; }
-      1.98% { opacity: 0; }
-      1.99% { opacity: 1; }
-      3.95% { opacity: 1; }
-      3.96% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-1 { animation: kf-1 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-2 {
-      0% { opacity: 0; }
-      3.96% { opacity: 0; }
-      3.97% { opacity: 1; }
-      5.93% { opacity: 1; }
-      5.94% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-2 { animation: kf-2 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-3 {
-      0% { opacity: 0; }
-      5.94% { opacity: 0; }
-      5.95% { opacity: 1; }
-      7.91% { opacity: 1; }
-      7.92% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-3 { animation: kf-3 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-4 {
-      0% { opacity: 0; }
-      7.92% { opacity: 0; }
-      7.93% { opacity: 1; }
-      9.89% { opacity: 1; }
-      9.90% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-4 { animation: kf-4 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-5 {
-      0% { opacity: 0; }
-      9.90% { opacity: 0; }
-      9.91% { opacity: 1; }
-      11.87% { opacity: 1; }
-      11.88% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-5 { animation: kf-5 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-6 {
-      0% { opacity: 0; }
-      11.88% { opacity: 0; }
-      11.89% { opacity: 1; }
-      13.85% { opacity: 1; }
-      13.86% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-6 { animation: kf-6 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-7 {
-      0% { opacity: 0; }
-      13.86% { opacity: 0; }
-      13.87% { opacity: 1; }
-      15.83% { opacity: 1; }
-      15.84% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-7 { animation: kf-7 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-8 {
-      0% { opacity: 0; }
-      15.84% { opacity: 0; }
-      15.85% { opacity: 1; }
-      17.81% { opacity: 1; }
-      17.82% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-8 { animation: kf-8 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-9 {
-      0% { opacity: 0; }
-      17.82% { opacity: 0; }
-      17.83% { opacity: 1; }
-      19.79% { opacity: 1; }
-      19.80% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-9 { animation: kf-9 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-10 {
-      0% { opacity: 0; }
-      19.80% { opacity: 0; }
-      19.81% { opacity: 1; }
-      84.15% { opacity: 1; }
-      84.16% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-10 { animation: kf-10 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-11 {
-      0% { opacity: 0; }
-      84.16% { opacity: 0; }
-      84.17% { opacity: 1; }
-      86.13% { opacity: 1; }
-      86.14% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-11 { animation: kf-11 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-12 {
-      0% { opacity: 0; }
-      86.14% { opacity: 0; }
-      86.15% { opacity: 1; }
-      88.11% { opacity: 1; }
-      88.12% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-12 { animation: kf-12 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-13 {
-      0% { opacity: 0; }
-      88.12% { opacity: 0; }
-      88.13% { opacity: 1; }
-      90.09% { opacity: 1; }
-      90.10% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-13 { animation: kf-13 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-14 {
-      0% { opacity: 0; }
-      90.10% { opacity: 0; }
-      90.11% { opacity: 1; }
-      92.07% { opacity: 1; }
-      92.08% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-14 { animation: kf-14 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-15 {
-      0% { opacity: 0; }
-      92.08% { opacity: 0; }
-      92.09% { opacity: 1; }
-      94.05% { opacity: 1; }
-      94.06% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-15 { animation: kf-15 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-16 {
-      0% { opacity: 0; }
-      94.06% { opacity: 0; }
-      94.07% { opacity: 1; }
-      96.03% { opacity: 1; }
-      96.04% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-16 { animation: kf-16 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-17 {
-      0% { opacity: 0; }
-      96.04% { opacity: 0; }
-      96.05% { opacity: 1; }
-      98.01% { opacity: 1; }
-      98.02% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-17 { animation: kf-17 4.04s steps(1, end) infinite; }
-  
-    @keyframes kf-18 {
-      0% { opacity: 0; }
-      98.02% { opacity: 0; }
-      98.03% { opacity: 1; }
-      99.99% { opacity: 1; }
-      100.00% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-    .frame-18 { animation: kf-18 4.04s steps(1, end) infinite; }
-  
-    </style>
-  </defs>
-
-  <!-- Matrix Digital Rain Layer -->
-  <g id="matrix-rain">
-    <g class="c0"><text x="12" y="0" fill="#ffffff" opacity="0.06" font-size="12">7</text><text x="12" y="18" fill="#ffffff" opacity="0.09" font-size="12">T</text><text x="12" y="36" fill="#ffffff" opacity="0.12" font-size="12">I</text><text x="12" y="54" fill="#ffffff" opacity="0.14" font-size="12">A</text><text x="12" y="72" fill="#ffffff" opacity="0.17" font-size="12">3</text><text x="12" y="90" fill="#ffffff" opacity="0.20" font-size="12">B</text><text x="12" y="108" fill="#ffffff" opacity="0.23" font-size="12">6</text><text x="12" y="126" fill="#ffffff" opacity="0.26" font-size="12">8</text><text x="12" y="144" fill="#ffffff" opacity="0.28" font-size="12">6</text><text x="12" y="162" fill="#ffffff" opacity="0.31" font-size="12">1</text></g>
-<g class="c1"><text x="46" y="0" fill="#ffffff" opacity="0.06" font-size="12">R</text><text x="46" y="18" fill="#ffffff" opacity="0.09" font-size="12">T</text><text x="46" y="36" fill="#ffffff" opacity="0.11" font-size="12">J</text><text x="46" y="54" fill="#ffffff" opacity="0.14" font-size="12">G</text><text x="46" y="72" fill="#ffffff" opacity="0.16" font-size="12">U</text><text x="46" y="90" fill="#ffffff" opacity="0.19" font-size="12">P</text><text x="46" y="108" fill="#ffffff" opacity="0.21" font-size="12">Y</text><text x="46" y="126" fill="#ffffff" opacity="0.24" font-size="12">~</text><text x="46" y="144" fill="#ffffff" opacity="0.26" font-size="12">F</text><text x="46" y="162" fill="#ffffff" opacity="0.29" font-size="12">U</text><text x="46" y="180" fill="#ffffff" opacity="0.31" font-size="12">~</text></g>
-<g class="c2"><text x="80" y="0" fill="#ffffff" opacity="0.06" font-size="12">=</text><text x="80" y="18" fill="#ffffff" opacity="0.08" font-size="12">Z</text><text x="80" y="36" fill="#ffffff" opacity="0.11" font-size="12">=</text><text x="80" y="54" fill="#ffffff" opacity="0.13" font-size="12">?</text><text x="80" y="72" fill="#ffffff" opacity="0.15" font-size="12">1</text><text x="80" y="90" fill="#ffffff" opacity="0.18" font-size="12">L</text><text x="80" y="108" fill="#ffffff" opacity="0.20" font-size="12">5</text><text x="80" y="126" fill="#ffffff" opacity="0.22" font-size="12">/</text><text x="80" y="144" fill="#ffffff" opacity="0.25" font-size="12">Q</text><text x="80" y="162" fill="#ffffff" opacity="0.27" font-size="12">!</text><text x="80" y="180" fill="#ffffff" opacity="0.29" font-size="12">W</text><text x="80" y="198" fill="#ffffff" opacity="0.32" font-size="12">^</text></g>
-<g class="c3"><text x="114" y="0" fill="#ffffff" opacity="0.06" font-size="12">9</text><text x="114" y="18" fill="#ffffff" opacity="0.08" font-size="12">1</text><text x="114" y="36" fill="#ffffff" opacity="0.10" font-size="12">M</text><text x="114" y="54" fill="#ffffff" opacity="0.12" font-size="12">Z</text><text x="114" y="72" fill="#ffffff" opacity="0.15" font-size="12">3</text><text x="114" y="90" fill="#ffffff" opacity="0.17" font-size="12">B</text><text x="114" y="108" fill="#ffffff" opacity="0.19" font-size="12">Z</text><text x="114" y="126" fill="#ffffff" opacity="0.21" font-size="12">0</text><text x="114" y="144" fill="#ffffff" opacity="0.23" font-size="12">X</text><text x="114" y="162" fill="#ffffff" opacity="0.25" font-size="12">^</text><text x="114" y="180" fill="#ffffff" opacity="0.28" font-size="12">@</text><text x="114" y="198" fill="#ffffff" opacity="0.30" font-size="12">J</text><text x="114" y="216" fill="#ffffff" opacity="0.32" font-size="12">O</text></g>
-<g class="c4"><text x="148" y="0" fill="#ffffff" opacity="0.06" font-size="12">5</text><text x="148" y="18" fill="#ffffff" opacity="0.08" font-size="12">S</text><text x="148" y="36" fill="#ffffff" opacity="0.10" font-size="12">Q</text><text x="148" y="54" fill="#ffffff" opacity="0.12" font-size="12">R</text><text x="148" y="72" fill="#ffffff" opacity="0.14" font-size="12">U</text><text x="148" y="90" fill="#ffffff" opacity="0.16" font-size="12">O</text><text x="148" y="108" fill="#ffffff" opacity="0.18" font-size="12">0</text><text x="148" y="126" fill="#ffffff" opacity="0.20" font-size="12">L</text><text x="148" y="144" fill="#ffffff" opacity="0.22" font-size="12">$</text><text x="148" y="162" fill="#ffffff" opacity="0.24" font-size="12">$</text><text x="148" y="180" fill="#ffffff" opacity="0.26" font-size="12">K</text><text x="148" y="198" fill="#ffffff" opacity="0.28" font-size="12">F</text><text x="148" y="216" fill="#ffffff" opacity="0.30" font-size="12">E</text><text x="148" y="234" fill="#ffffff" opacity="0.32" font-size="12">_</text></g>
-<g class="c5"><text x="182" y="0" fill="#ffffff" opacity="0.06" font-size="12">*</text><text x="182" y="18" fill="#ffffff" opacity="0.08" font-size="12">%</text><text x="182" y="36" fill="#ffffff" opacity="0.10" font-size="12">@</text><text x="182" y="54" fill="#ffffff" opacity="0.12" font-size="12">Y</text><text x="182" y="72" fill="#ffffff" opacity="0.13" font-size="12">F</text><text x="182" y="90" fill="#ffffff" opacity="0.15" font-size="12">5</text><text x="182" y="108" fill="#ffffff" opacity="0.17" font-size="12">9</text><text x="182" y="126" fill="#ffffff" opacity="0.19" font-size="12">H</text><text x="182" y="144" fill="#ffffff" opacity="0.21" font-size="12">2</text><text x="182" y="162" fill="#ffffff" opacity="0.23" font-size="12">%</text><text x="182" y="180" fill="#ffffff" opacity="0.25" font-size="12">Q</text><text x="182" y="198" fill="#ffffff" opacity="0.27" font-size="12">%</text><text x="182" y="216" fill="#ffffff" opacity="0.28" font-size="12">#</text><text x="182" y="234" fill="#ffffff" opacity="0.30" font-size="12">-</text><text x="182" y="252" fill="#ffffff" opacity="0.32" font-size="12">A</text></g>
-<g class="c6"><text x="216" y="0" fill="#ffffff" opacity="0.06" font-size="12">2</text><text x="216" y="18" fill="#ffffff" opacity="0.09" font-size="12">H</text><text x="216" y="36" fill="#ffffff" opacity="0.12" font-size="12">%</text><text x="216" y="54" fill="#ffffff" opacity="0.14" font-size="12">V</text><text x="216" y="72" fill="#ffffff" opacity="0.17" font-size="12">M</text><text x="216" y="90" fill="#ffffff" opacity="0.20" font-size="12">1</text><text x="216" y="108" fill="#ffffff" opacity="0.23" font-size="12">^</text><text x="216" y="126" fill="#ffffff" opacity="0.26" font-size="12">8</text><text x="216" y="144" fill="#ffffff" opacity="0.28" font-size="12">Z</text><text x="216" y="162" fill="#ffffff" opacity="0.31" font-size="12">/</text></g>
-<g class="c7"><text x="250" y="0" fill="#ffffff" opacity="0.06" font-size="12">Q</text><text x="250" y="18" fill="#ffffff" opacity="0.09" font-size="12">-</text><text x="250" y="36" fill="#ffffff" opacity="0.11" font-size="12">E</text><text x="250" y="54" fill="#ffffff" opacity="0.14" font-size="12">B</text><text x="250" y="72" fill="#ffffff" opacity="0.16" font-size="12">R</text><text x="250" y="90" fill="#ffffff" opacity="0.19" font-size="12">5</text><text x="250" y="108" fill="#ffffff" opacity="0.21" font-size="12">%</text><text x="250" y="126" fill="#ffffff" opacity="0.24" font-size="12">V</text><text x="250" y="144" fill="#ffffff" opacity="0.26" font-size="12">J</text><text x="250" y="162" fill="#ffffff" opacity="0.29" font-size="12">H</text><text x="250" y="180" fill="#ffffff" opacity="0.31" font-size="12">K</text></g>
-<g class="c8"><text x="283" y="0" fill="#ffffff" opacity="0.06" font-size="12">0</text><text x="283" y="18" fill="#ffffff" opacity="0.08" font-size="12">O</text><text x="283" y="36" fill="#ffffff" opacity="0.11" font-size="12">S</text><text x="283" y="54" fill="#ffffff" opacity="0.13" font-size="12">X</text><text x="283" y="72" fill="#ffffff" opacity="0.15" font-size="12">+</text><text x="283" y="90" fill="#ffffff" opacity="0.18" font-size="12">T</text><text x="283" y="108" fill="#ffffff" opacity="0.20" font-size="12">3</text><text x="283" y="126" fill="#ffffff" opacity="0.22" font-size="12">C</text><text x="283" y="144" fill="#ffffff" opacity="0.25" font-size="12">B</text><text x="283" y="162" fill="#ffffff" opacity="0.27" font-size="12">%</text><text x="283" y="180" fill="#ffffff" opacity="0.29" font-size="12">_</text><text x="283" y="198" fill="#ffffff" opacity="0.32" font-size="12">Y</text></g>
-<g class="c9"><text x="317" y="0" fill="#ffffff" opacity="0.06" font-size="12">8</text><text x="317" y="18" fill="#ffffff" opacity="0.08" font-size="12">A</text><text x="317" y="36" fill="#ffffff" opacity="0.10" font-size="12">V</text><text x="317" y="54" fill="#ffffff" opacity="0.12" font-size="12">K</text><text x="317" y="72" fill="#ffffff" opacity="0.15" font-size="12">G</text><text x="317" y="90" fill="#ffffff" opacity="0.17" font-size="12">$</text><text x="317" y="108" fill="#ffffff" opacity="0.19" font-size="12">Z</text><text x="317" y="126" fill="#ffffff" opacity="0.21" font-size="12">3</text><text x="317" y="144" fill="#ffffff" opacity="0.23" font-size="12">_</text><text x="317" y="162" fill="#ffffff" opacity="0.25" font-size="12">E</text><text x="317" y="180" fill="#ffffff" opacity="0.28" font-size="12">6</text><text x="317" y="198" fill="#ffffff" opacity="0.30" font-size="12">-</text><text x="317" y="216" fill="#ffffff" opacity="0.32" font-size="12">V</text></g>
-<g class="c10"><text x="351" y="0" fill="#ffffff" opacity="0.06" font-size="12">V</text><text x="351" y="18" fill="#ffffff" opacity="0.08" font-size="12">C</text><text x="351" y="36" fill="#ffffff" opacity="0.10" font-size="12">3</text><text x="351" y="54" fill="#ffffff" opacity="0.12" font-size="12">G</text><text x="351" y="72" fill="#ffffff" opacity="0.14" font-size="12">_</text><text x="351" y="90" fill="#ffffff" opacity="0.16" font-size="12">N</text><text x="351" y="108" fill="#ffffff" opacity="0.18" font-size="12">Z</text><text x="351" y="126" fill="#ffffff" opacity="0.20" font-size="12">%</text><text x="351" y="144" fill="#ffffff" opacity="0.22" font-size="12">*</text><text x="351" y="162" fill="#ffffff" opacity="0.24" font-size="12">6</text><text x="351" y="180" fill="#ffffff" opacity="0.26" font-size="12">~</text><text x="351" y="198" fill="#ffffff" opacity="0.28" font-size="12">*</text><text x="351" y="216" fill="#ffffff" opacity="0.30" font-size="12">$</text><text x="351" y="234" fill="#ffffff" opacity="0.32" font-size="12">8</text></g>
-<g class="c11"><text x="385" y="0" fill="#ffffff" opacity="0.06" font-size="12">H</text><text x="385" y="18" fill="#ffffff" opacity="0.08" font-size="12">6</text><text x="385" y="36" fill="#ffffff" opacity="0.10" font-size="12">_</text><text x="385" y="54" fill="#ffffff" opacity="0.12" font-size="12">V</text><text x="385" y="72" fill="#ffffff" opacity="0.13" font-size="12">@</text><text x="385" y="90" fill="#ffffff" opacity="0.15" font-size="12">Q</text><text x="385" y="108" fill="#ffffff" opacity="0.17" font-size="12">#</text><text x="385" y="126" fill="#ffffff" opacity="0.19" font-size="12">N</text><text x="385" y="144" fill="#ffffff" opacity="0.21" font-size="12">7</text><text x="385" y="162" fill="#ffffff" opacity="0.23" font-size="12">0</text><text x="385" y="180" fill="#ffffff" opacity="0.25" font-size="12">6</text><text x="385" y="198" fill="#ffffff" opacity="0.27" font-size="12">L</text><text x="385" y="216" fill="#ffffff" opacity="0.28" font-size="12">Z</text><text x="385" y="234" fill="#ffffff" opacity="0.30" font-size="12">3</text><text x="385" y="252" fill="#ffffff" opacity="0.32" font-size="12">@</text></g>
-<g class="c12"><text x="419" y="0" fill="#ffffff" opacity="0.06" font-size="12">/</text><text x="419" y="18" fill="#ffffff" opacity="0.09" font-size="12">$</text><text x="419" y="36" fill="#ffffff" opacity="0.12" font-size="12">S</text><text x="419" y="54" fill="#ffffff" opacity="0.14" font-size="12">X</text><text x="419" y="72" fill="#ffffff" opacity="0.17" font-size="12">%</text><text x="419" y="90" fill="#ffffff" opacity="0.20" font-size="12">I</text><text x="419" y="108" fill="#ffffff" opacity="0.23" font-size="12">?</text><text x="419" y="126" fill="#ffffff" opacity="0.26" font-size="12">5</text><text x="419" y="144" fill="#ffffff" opacity="0.28" font-size="12">^</text><text x="419" y="162" fill="#ffffff" opacity="0.31" font-size="12">%</text></g>
-<g class="c13"><text x="453" y="0" fill="#ffffff" opacity="0.06" font-size="12">|</text><text x="453" y="18" fill="#ffffff" opacity="0.09" font-size="12">4</text><text x="453" y="36" fill="#ffffff" opacity="0.11" font-size="12">E</text><text x="453" y="54" fill="#ffffff" opacity="0.14" font-size="12">3</text><text x="453" y="72" fill="#ffffff" opacity="0.16" font-size="12">7</text><text x="453" y="90" fill="#ffffff" opacity="0.19" font-size="12">J</text><text x="453" y="108" fill="#ffffff" opacity="0.21" font-size="12">!</text><text x="453" y="126" fill="#ffffff" opacity="0.24" font-size="12">%</text><text x="453" y="144" fill="#ffffff" opacity="0.26" font-size="12">?</text><text x="453" y="162" fill="#ffffff" opacity="0.29" font-size="12">7</text><text x="453" y="180" fill="#ffffff" opacity="0.31" font-size="12">9</text></g>
-<g class="c14"><text x="487" y="0" fill="#ffffff" opacity="0.06" font-size="12">X</text><text x="487" y="18" fill="#ffffff" opacity="0.08" font-size="12">*</text><text x="487" y="36" fill="#ffffff" opacity="0.11" font-size="12">C</text><text x="487" y="54" fill="#ffffff" opacity="0.13" font-size="12">%</text><text x="487" y="72" fill="#ffffff" opacity="0.15" font-size="12">H</text><text x="487" y="90" fill="#ffffff" opacity="0.18" font-size="12">3</text><text x="487" y="108" fill="#ffffff" opacity="0.20" font-size="12">@</text><text x="487" y="126" fill="#ffffff" opacity="0.22" font-size="12">6</text><text x="487" y="144" fill="#ffffff" opacity="0.25" font-size="12">D</text><text x="487" y="162" fill="#ffffff" opacity="0.27" font-size="12">-</text><text x="487" y="180" fill="#ffffff" opacity="0.29" font-size="12">/</text><text x="487" y="198" fill="#ffffff" opacity="0.32" font-size="12">1</text></g>
-<g class="c15"><text x="521" y="0" fill="#ffffff" opacity="0.06" font-size="12">Q</text><text x="521" y="18" fill="#ffffff" opacity="0.08" font-size="12">V</text><text x="521" y="36" fill="#ffffff" opacity="0.10" font-size="12">?</text><text x="521" y="54" fill="#ffffff" opacity="0.12" font-size="12">8</text><text x="521" y="72" fill="#ffffff" opacity="0.15" font-size="12">@</text><text x="521" y="90" fill="#ffffff" opacity="0.17" font-size="12">T</text><text x="521" y="108" fill="#ffffff" opacity="0.19" font-size="12">X</text><text x="521" y="126" fill="#ffffff" opacity="0.21" font-size="12">*</text><text x="521" y="144" fill="#ffffff" opacity="0.23" font-size="12">_</text><text x="521" y="162" fill="#ffffff" opacity="0.25" font-size="12">U</text><text x="521" y="180" fill="#ffffff" opacity="0.28" font-size="12">%</text><text x="521" y="198" fill="#ffffff" opacity="0.30" font-size="12">Y</text><text x="521" y="216" fill="#ffffff" opacity="0.32" font-size="12">7</text></g>
-<g class="c16"><text x="555" y="0" fill="#ffffff" opacity="0.06" font-size="12">6</text><text x="555" y="18" fill="#ffffff" opacity="0.08" font-size="12">G</text><text x="555" y="36" fill="#ffffff" opacity="0.10" font-size="12">T</text><text x="555" y="54" fill="#ffffff" opacity="0.12" font-size="12">U</text><text x="555" y="72" fill="#ffffff" opacity="0.14" font-size="12">*</text><text x="555" y="90" fill="#ffffff" opacity="0.16" font-size="12">#</text><text x="555" y="108" fill="#ffffff" opacity="0.18" font-size="12">3</text><text x="555" y="126" fill="#ffffff" opacity="0.20" font-size="12">|</text><text x="555" y="144" fill="#ffffff" opacity="0.22" font-size="12">2</text><text x="555" y="162" fill="#ffffff" opacity="0.24" font-size="12">A</text><text x="555" y="180" fill="#ffffff" opacity="0.26" font-size="12">-</text><text x="555" y="198" fill="#ffffff" opacity="0.28" font-size="12">N</text><text x="555" y="216" fill="#ffffff" opacity="0.30" font-size="12">M</text><text x="555" y="234" fill="#ffffff" opacity="0.32" font-size="12">#</text></g>
-<g class="c17"><text x="589" y="0" fill="#ffffff" opacity="0.06" font-size="12">6</text><text x="589" y="18" fill="#ffffff" opacity="0.08" font-size="12">6</text><text x="589" y="36" fill="#ffffff" opacity="0.10" font-size="12">4</text><text x="589" y="54" fill="#ffffff" opacity="0.12" font-size="12">5</text><text x="589" y="72" fill="#ffffff" opacity="0.13" font-size="12">P</text><text x="589" y="90" fill="#ffffff" opacity="0.15" font-size="12">C</text><text x="589" y="108" fill="#ffffff" opacity="0.17" font-size="12">2</text><text x="589" y="126" fill="#ffffff" opacity="0.19" font-size="12">K</text><text x="589" y="144" fill="#ffffff" opacity="0.21" font-size="12">/</text><text x="589" y="162" fill="#ffffff" opacity="0.23" font-size="12">E</text><text x="589" y="180" fill="#ffffff" opacity="0.25" font-size="12">1</text><text x="589" y="198" fill="#ffffff" opacity="0.27" font-size="12">$</text><text x="589" y="216" fill="#ffffff" opacity="0.28" font-size="12">_</text><text x="589" y="234" fill="#ffffff" opacity="0.30" font-size="12">C</text><text x="589" y="252" fill="#ffffff" opacity="0.32" font-size="12">0</text></g>
-<g class="c18"><text x="623" y="0" fill="#ffffff" opacity="0.06" font-size="12">9</text><text x="623" y="18" fill="#ffffff" opacity="0.09" font-size="12">G</text><text x="623" y="36" fill="#ffffff" opacity="0.12" font-size="12">V</text><text x="623" y="54" fill="#ffffff" opacity="0.14" font-size="12">Q</text><text x="623" y="72" fill="#ffffff" opacity="0.17" font-size="12">Q</text><text x="623" y="90" fill="#ffffff" opacity="0.20" font-size="12">#</text><text x="623" y="108" fill="#ffffff" opacity="0.23" font-size="12">P</text><text x="623" y="126" fill="#ffffff" opacity="0.26" font-size="12">F</text><text x="623" y="144" fill="#ffffff" opacity="0.28" font-size="12">C</text><text x="623" y="162" fill="#ffffff" opacity="0.31" font-size="12">Y</text></g>
-<g class="c19"><text x="657" y="0" fill="#ffffff" opacity="0.06" font-size="12">Z</text><text x="657" y="18" fill="#ffffff" opacity="0.09" font-size="12">X</text><text x="657" y="36" fill="#ffffff" opacity="0.11" font-size="12">R</text><text x="657" y="54" fill="#ffffff" opacity="0.14" font-size="12">8</text><text x="657" y="72" fill="#ffffff" opacity="0.16" font-size="12">/</text><text x="657" y="90" fill="#ffffff" opacity="0.19" font-size="12">Y</text><text x="657" y="108" fill="#ffffff" opacity="0.21" font-size="12">G</text><text x="657" y="126" fill="#ffffff" opacity="0.24" font-size="12">G</text><text x="657" y="144" fill="#ffffff" opacity="0.26" font-size="12">*</text><text x="657" y="162" fill="#ffffff" opacity="0.29" font-size="12">3</text><text x="657" y="180" fill="#ffffff" opacity="0.31" font-size="12">P</text></g>
-<g class="c20"><text x="691" y="0" fill="#ffffff" opacity="0.06" font-size="12">_</text><text x="691" y="18" fill="#ffffff" opacity="0.08" font-size="12">S</text><text x="691" y="36" fill="#ffffff" opacity="0.11" font-size="12">N</text><text x="691" y="54" fill="#ffffff" opacity="0.13" font-size="12">U</text><text x="691" y="72" fill="#ffffff" opacity="0.15" font-size="12">C</text><text x="691" y="90" fill="#ffffff" opacity="0.18" font-size="12">I</text><text x="691" y="108" fill="#ffffff" opacity="0.20" font-size="12">~</text><text x="691" y="126" fill="#ffffff" opacity="0.22" font-size="12">2</text><text x="691" y="144" fill="#ffffff" opacity="0.25" font-size="12">+</text><text x="691" y="162" fill="#ffffff" opacity="0.27" font-size="12">5</text><text x="691" y="180" fill="#ffffff" opacity="0.29" font-size="12">*</text><text x="691" y="198" fill="#ffffff" opacity="0.32" font-size="12">R</text></g>
-<g class="c21"><text x="725" y="0" fill="#ffffff" opacity="0.06" font-size="12">|</text><text x="725" y="18" fill="#ffffff" opacity="0.08" font-size="12">=</text><text x="725" y="36" fill="#ffffff" opacity="0.10" font-size="12">H</text><text x="725" y="54" fill="#ffffff" opacity="0.12" font-size="12">X</text><text x="725" y="72" fill="#ffffff" opacity="0.15" font-size="12">R</text><text x="725" y="90" fill="#ffffff" opacity="0.17" font-size="12">~</text><text x="725" y="108" fill="#ffffff" opacity="0.19" font-size="12">S</text><text x="725" y="126" fill="#ffffff" opacity="0.21" font-size="12">M</text><text x="725" y="144" fill="#ffffff" opacity="0.23" font-size="12">$</text><text x="725" y="162" fill="#ffffff" opacity="0.25" font-size="12">T</text><text x="725" y="180" fill="#ffffff" opacity="0.28" font-size="12">M</text><text x="725" y="198" fill="#ffffff" opacity="0.30" font-size="12">C</text><text x="725" y="216" fill="#ffffff" opacity="0.32" font-size="12">%</text></g>
-<g class="c22"><text x="758" y="0" fill="#ffffff" opacity="0.06" font-size="12">-</text><text x="758" y="18" fill="#ffffff" opacity="0.08" font-size="12">=</text><text x="758" y="36" fill="#ffffff" opacity="0.10" font-size="12">Z</text><text x="758" y="54" fill="#ffffff" opacity="0.12" font-size="12">@</text><text x="758" y="72" fill="#ffffff" opacity="0.14" font-size="12">O</text><text x="758" y="90" fill="#ffffff" opacity="0.16" font-size="12">H</text><text x="758" y="108" fill="#ffffff" opacity="0.18" font-size="12">9</text><text x="758" y="126" fill="#ffffff" opacity="0.20" font-size="12">K</text><text x="758" y="144" fill="#ffffff" opacity="0.22" font-size="12">J</text><text x="758" y="162" fill="#ffffff" opacity="0.24" font-size="12">K</text><text x="758" y="180" fill="#ffffff" opacity="0.26" font-size="12">O</text><text x="758" y="198" fill="#ffffff" opacity="0.28" font-size="12">^</text><text x="758" y="216" fill="#ffffff" opacity="0.30" font-size="12">F</text><text x="758" y="234" fill="#ffffff" opacity="0.32" font-size="12">P</text></g>
-<g class="c23"><text x="792" y="0" fill="#ffffff" opacity="0.06" font-size="12">X</text><text x="792" y="18" fill="#ffffff" opacity="0.08" font-size="12">G</text><text x="792" y="36" fill="#ffffff" opacity="0.10" font-size="12">4</text><text x="792" y="54" fill="#ffffff" opacity="0.12" font-size="12">R</text><text x="792" y="72" fill="#ffffff" opacity="0.13" font-size="12">E</text><text x="792" y="90" fill="#ffffff" opacity="0.15" font-size="12">D</text><text x="792" y="108" fill="#ffffff" opacity="0.17" font-size="12">W</text><text x="792" y="126" fill="#ffffff" opacity="0.19" font-size="12">7</text><text x="792" y="144" fill="#ffffff" opacity="0.21" font-size="12">A</text><text x="792" y="162" fill="#ffffff" opacity="0.23" font-size="12">|</text><text x="792" y="180" fill="#ffffff" opacity="0.25" font-size="12">T</text><text x="792" y="198" fill="#ffffff" opacity="0.27" font-size="12">^</text><text x="792" y="216" fill="#ffffff" opacity="0.28" font-size="12">F</text><text x="792" y="234" fill="#ffffff" opacity="0.30" font-size="12">Y</text><text x="792" y="252" fill="#ffffff" opacity="0.32" font-size="12">#</text></g>
-<g class="c24"><text x="826" y="0" fill="#ffffff" opacity="0.06" font-size="12">Z</text><text x="826" y="18" fill="#ffffff" opacity="0.09" font-size="12">?</text><text x="826" y="36" fill="#ffffff" opacity="0.12" font-size="12">Q</text><text x="826" y="54" fill="#ffffff" opacity="0.14" font-size="12">F</text><text x="826" y="72" fill="#ffffff" opacity="0.17" font-size="12">$</text><text x="826" y="90" fill="#ffffff" opacity="0.20" font-size="12">$</text><text x="826" y="108" fill="#ffffff" opacity="0.23" font-size="12">I</text><text x="826" y="126" fill="#ffffff" opacity="0.26" font-size="12">G</text><text x="826" y="144" fill="#ffffff" opacity="0.28" font-size="12">5</text><text x="826" y="162" fill="#ffffff" opacity="0.31" font-size="12">R</text></g>
-<g class="c25"><text x="860" y="0" fill="#ffffff" opacity="0.06" font-size="12">5</text><text x="860" y="18" fill="#ffffff" opacity="0.09" font-size="12">S</text><text x="860" y="36" fill="#ffffff" opacity="0.11" font-size="12">2</text><text x="860" y="54" fill="#ffffff" opacity="0.14" font-size="12">3</text><text x="860" y="72" fill="#ffffff" opacity="0.16" font-size="12">O</text><text x="860" y="90" fill="#ffffff" opacity="0.19" font-size="12">-</text><text x="860" y="108" fill="#ffffff" opacity="0.21" font-size="12">2</text><text x="860" y="126" fill="#ffffff" opacity="0.24" font-size="12">+</text><text x="860" y="144" fill="#ffffff" opacity="0.26" font-size="12">T</text><text x="860" y="162" fill="#ffffff" opacity="0.29" font-size="12">O</text><text x="860" y="180" fill="#ffffff" opacity="0.31" font-size="12">O</text></g>
-<g class="c26"><text x="894" y="0" fill="#ffffff" opacity="0.06" font-size="12">2</text><text x="894" y="18" fill="#ffffff" opacity="0.08" font-size="12">1</text><text x="894" y="36" fill="#ffffff" opacity="0.11" font-size="12">*</text><text x="894" y="54" fill="#ffffff" opacity="0.13" font-size="12">H</text><text x="894" y="72" fill="#ffffff" opacity="0.15" font-size="12">2</text><text x="894" y="90" fill="#ffffff" opacity="0.18" font-size="12">0</text><text x="894" y="108" fill="#ffffff" opacity="0.20" font-size="12">$</text><text x="894" y="126" fill="#ffffff" opacity="0.22" font-size="12">?</text><text x="894" y="144" fill="#ffffff" opacity="0.25" font-size="12">_</text><text x="894" y="162" fill="#ffffff" opacity="0.27" font-size="12">K</text><text x="894" y="180" fill="#ffffff" opacity="0.29" font-size="12">A</text><text x="894" y="198" fill="#ffffff" opacity="0.32" font-size="12">M</text></g>
-<g class="c27"><text x="928" y="0" fill="#ffffff" opacity="0.06" font-size="12">X</text><text x="928" y="18" fill="#ffffff" opacity="0.08" font-size="12">J</text><text x="928" y="36" fill="#ffffff" opacity="0.10" font-size="12">D</text><text x="928" y="54" fill="#ffffff" opacity="0.12" font-size="12">G</text><text x="928" y="72" fill="#ffffff" opacity="0.15" font-size="12">2</text><text x="928" y="90" fill="#ffffff" opacity="0.17" font-size="12">5</text><text x="928" y="108" fill="#ffffff" opacity="0.19" font-size="12">_</text><text x="928" y="126" fill="#ffffff" opacity="0.21" font-size="12">S</text><text x="928" y="144" fill="#ffffff" opacity="0.23" font-size="12">V</text><text x="928" y="162" fill="#ffffff" opacity="0.25" font-size="12">?</text><text x="928" y="180" fill="#ffffff" opacity="0.28" font-size="12">@</text><text x="928" y="198" fill="#ffffff" opacity="0.30" font-size="12">~</text><text x="928" y="216" fill="#ffffff" opacity="0.32" font-size="12">_</text></g>
-
-  </g>
-
-  <!-- Center Scramble Title Layer -->
-  <g id="matrix-title">
+      .frame-0 { animation: kf-0 4.24s steps(1, end) infinite; }
     
-    <g class="frame-0">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">%5T @H|Y%E</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+      @keyframes kf-1 {
+        0% { opacity: 0; }
+        1.89% { opacity: 0; }
+        1.90% { opacity: 1; }
+        3.76% { opacity: 1; }
+        3.77% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-1 { animation: kf-1 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-2 {
+        0% { opacity: 0; }
+        3.77% { opacity: 0; }
+        3.78% { opacity: 1; }
+        5.65% { opacity: 1; }
+        5.66% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-2 { animation: kf-2 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-3 {
+        0% { opacity: 0; }
+        5.66% { opacity: 0; }
+        5.67% { opacity: 1; }
+        7.54% { opacity: 1; }
+        7.55% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-3 { animation: kf-3 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-4 {
+        0% { opacity: 0; }
+        7.55% { opacity: 0; }
+        7.56% { opacity: 1; }
+        9.42% { opacity: 1; }
+        9.43% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-4 { animation: kf-4 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-5 {
+        0% { opacity: 0; }
+        9.43% { opacity: 0; }
+        9.44% { opacity: 1; }
+        11.31% { opacity: 1; }
+        11.32% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-5 { animation: kf-5 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-6 {
+        0% { opacity: 0; }
+        11.32% { opacity: 0; }
+        11.33% { opacity: 1; }
+        13.20% { opacity: 1; }
+        13.21% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-6 { animation: kf-6 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-7 {
+        0% { opacity: 0; }
+        13.21% { opacity: 0; }
+        13.22% { opacity: 1; }
+        15.08% { opacity: 1; }
+        15.09% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-7 { animation: kf-7 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-8 {
+        0% { opacity: 0; }
+        15.09% { opacity: 0; }
+        15.10% { opacity: 1; }
+        16.97% { opacity: 1; }
+        16.98% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-8 { animation: kf-8 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-9 {
+        0% { opacity: 0; }
+        16.98% { opacity: 0; }
+        16.99% { opacity: 1; }
+        18.86% { opacity: 1; }
+        18.87% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-9 { animation: kf-9 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-10 {
+        0% { opacity: 0; }
+        18.87% { opacity: 0; }
+        18.88% { opacity: 1; }
+        84.90% { opacity: 1; }
+        84.91% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-10 { animation: kf-10 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-11 {
+        0% { opacity: 0; }
+        84.91% { opacity: 0; }
+        84.92% { opacity: 1; }
+        86.78% { opacity: 1; }
+        86.79% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-11 { animation: kf-11 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-12 {
+        0% { opacity: 0; }
+        86.79% { opacity: 0; }
+        86.80% { opacity: 1; }
+        88.67% { opacity: 1; }
+        88.68% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-12 { animation: kf-12 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-13 {
+        0% { opacity: 0; }
+        88.68% { opacity: 0; }
+        88.69% { opacity: 1; }
+        90.56% { opacity: 1; }
+        90.57% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-13 { animation: kf-13 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-14 {
+        0% { opacity: 0; }
+        90.57% { opacity: 0; }
+        90.58% { opacity: 1; }
+        92.44% { opacity: 1; }
+        92.45% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-14 { animation: kf-14 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-15 {
+        0% { opacity: 0; }
+        92.45% { opacity: 0; }
+        92.46% { opacity: 1; }
+        94.33% { opacity: 1; }
+        94.34% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-15 { animation: kf-15 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-16 {
+        0% { opacity: 0; }
+        94.34% { opacity: 0; }
+        94.35% { opacity: 1; }
+        96.22% { opacity: 1; }
+        96.23% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-16 { animation: kf-16 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-17 {
+        0% { opacity: 0; }
+        96.23% { opacity: 0; }
+        96.24% { opacity: 1; }
+        98.10% { opacity: 1; }
+        98.11% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-17 { animation: kf-17 4.24s steps(1, end) infinite; }
+    
+      @keyframes kf-18 {
+        0% { opacity: 0; }
+        98.11% { opacity: 0; }
+        98.12% { opacity: 1; }
+        99.99% { opacity: 1; }
+        100.00% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .frame-18 { animation: kf-18 4.24s steps(1, end) infinite; }
+    
+      </style>
+    </defs>
+    <g id="matrix-rain"><g class="c0"><text x="10" y="0" fill="#ffffff" opacity="0.05" font-size="12">C</text><text x="10" y="18" fill="#ffffff" opacity="0.07" font-size="12">^</text><text x="10" y="36" fill="#ffffff" opacity="0.09" font-size="12">*</text><text x="10" y="54" fill="#ffffff" opacity="0.11" font-size="12">=</text><text x="10" y="72" fill="#ffffff" opacity="0.13" font-size="12">U</text><text x="10" y="90" fill="#ffffff" opacity="0.15" font-size="12">%</text><text x="10" y="108" fill="#ffffff" opacity="0.17" font-size="12">O</text><text x="10" y="126" fill="#ffffff" opacity="0.19" font-size="12">H</text><text x="10" y="144" fill="#ffffff" opacity="0.21" font-size="12">~</text><text x="10" y="162" fill="#ffffff" opacity="0.23" font-size="12">G</text><text x="10" y="180" fill="#ffffff" opacity="0.25" font-size="12">7</text><text x="10" y="198" fill="#ffffff" opacity="0.27" font-size="12">R</text><text x="10" y="216" fill="#ffffff" opacity="0.29" font-size="12">@</text><text x="10" y="234" fill="#ffffff" opacity="0.31" font-size="12">K</text></g>
+<g class="c1"><text x="39" y="0" fill="#ffffff" opacity="0.05" font-size="12">8</text><text x="39" y="18" fill="#ffffff" opacity="0.07" font-size="12">E</text><text x="39" y="36" fill="#ffffff" opacity="0.09" font-size="12">^</text><text x="39" y="54" fill="#ffffff" opacity="0.11" font-size="12">6</text><text x="39" y="72" fill="#ffffff" opacity="0.12" font-size="12">W</text><text x="39" y="90" fill="#ffffff" opacity="0.14" font-size="12">Q</text><text x="39" y="108" fill="#ffffff" opacity="0.16" font-size="12">Q</text><text x="39" y="126" fill="#ffffff" opacity="0.18" font-size="12">|</text><text x="39" y="144" fill="#ffffff" opacity="0.20" font-size="12">7</text><text x="39" y="162" fill="#ffffff" opacity="0.22" font-size="12">T</text><text x="39" y="180" fill="#ffffff" opacity="0.24" font-size="12">1</text><text x="39" y="198" fill="#ffffff" opacity="0.26" font-size="12">H</text><text x="39" y="216" fill="#ffffff" opacity="0.27" font-size="12">N</text><text x="39" y="234" fill="#ffffff" opacity="0.29" font-size="12">Q</text><text x="39" y="252" fill="#ffffff" opacity="0.31" font-size="12">0</text></g>
+<g class="c2"><text x="69" y="0" fill="#ffffff" opacity="0.05" font-size="12">4</text><text x="69" y="18" fill="#ffffff" opacity="0.07" font-size="12">C</text><text x="69" y="36" fill="#ffffff" opacity="0.09" font-size="12">8</text><text x="69" y="54" fill="#ffffff" opacity="0.10" font-size="12">4</text><text x="69" y="72" fill="#ffffff" opacity="0.12" font-size="12">S</text><text x="69" y="90" fill="#ffffff" opacity="0.14" font-size="12">G</text><text x="69" y="108" fill="#ffffff" opacity="0.16" font-size="12">V</text><text x="69" y="126" fill="#ffffff" opacity="0.17" font-size="12">D</text><text x="69" y="144" fill="#ffffff" opacity="0.19" font-size="12">1</text><text x="69" y="162" fill="#ffffff" opacity="0.21" font-size="12">~</text><text x="69" y="180" fill="#ffffff" opacity="0.23" font-size="12">E</text><text x="69" y="198" fill="#ffffff" opacity="0.24" font-size="12">-</text><text x="69" y="216" fill="#ffffff" opacity="0.26" font-size="12">2</text><text x="69" y="234" fill="#ffffff" opacity="0.28" font-size="12">F</text><text x="69" y="252" fill="#ffffff" opacity="0.30" font-size="12">B</text><text x="69" y="270" fill="#ffffff" opacity="0.31" font-size="12">A</text></g>
+<g class="c3"><text x="98" y="0" fill="#ffffff" opacity="0.05" font-size="12">X</text><text x="98" y="18" fill="#ffffff" opacity="0.07" font-size="12">A</text><text x="98" y="36" fill="#ffffff" opacity="0.08" font-size="12">0</text><text x="98" y="54" fill="#ffffff" opacity="0.10" font-size="12">L</text><text x="98" y="72" fill="#ffffff" opacity="0.12" font-size="12">5</text><text x="98" y="90" fill="#ffffff" opacity="0.13" font-size="12">C</text><text x="98" y="108" fill="#ffffff" opacity="0.15" font-size="12">Z</text><text x="98" y="126" fill="#ffffff" opacity="0.17" font-size="12">L</text><text x="98" y="144" fill="#ffffff" opacity="0.18" font-size="12">V</text><text x="98" y="162" fill="#ffffff" opacity="0.20" font-size="12">T</text><text x="98" y="180" fill="#ffffff" opacity="0.21" font-size="12">I</text><text x="98" y="198" fill="#ffffff" opacity="0.23" font-size="12">3</text><text x="98" y="216" fill="#ffffff" opacity="0.25" font-size="12">W</text><text x="98" y="234" fill="#ffffff" opacity="0.26" font-size="12">F</text><text x="98" y="252" fill="#ffffff" opacity="0.28" font-size="12">J</text><text x="98" y="270" fill="#ffffff" opacity="0.30" font-size="12">I</text><text x="98" y="288" fill="#ffffff" opacity="0.31" font-size="12">@</text></g>
+<g class="c4"><text x="128" y="0" fill="#ffffff" opacity="0.05" font-size="12">J</text><text x="128" y="18" fill="#ffffff" opacity="0.07" font-size="12">N</text><text x="128" y="36" fill="#ffffff" opacity="0.08" font-size="12">N</text><text x="128" y="54" fill="#ffffff" opacity="0.10" font-size="12">9</text><text x="128" y="72" fill="#ffffff" opacity="0.11" font-size="12">%</text><text x="128" y="90" fill="#ffffff" opacity="0.13" font-size="12">D</text><text x="128" y="108" fill="#ffffff" opacity="0.14" font-size="12">U</text><text x="128" y="126" fill="#ffffff" opacity="0.16" font-size="12">2</text><text x="128" y="144" fill="#ffffff" opacity="0.17" font-size="12">E</text><text x="128" y="162" fill="#ffffff" opacity="0.19" font-size="12">0</text><text x="128" y="180" fill="#ffffff" opacity="0.21" font-size="12">Q</text><text x="128" y="198" fill="#ffffff" opacity="0.22" font-size="12">3</text><text x="128" y="216" fill="#ffffff" opacity="0.24" font-size="12">-</text><text x="128" y="234" fill="#ffffff" opacity="0.25" font-size="12">Z</text><text x="128" y="252" fill="#ffffff" opacity="0.27" font-size="12">Y</text><text x="128" y="270" fill="#ffffff" opacity="0.28" font-size="12">/</text><text x="128" y="288" fill="#ffffff" opacity="0.30" font-size="12">*</text><text x="128" y="306" fill="#ffffff" opacity="0.31" font-size="12">M</text></g>
+<g class="c5"><text x="157" y="0" fill="#ffffff" opacity="0.05" font-size="12">H</text><text x="157" y="18" fill="#ffffff" opacity="0.06" font-size="12">3</text><text x="157" y="36" fill="#ffffff" opacity="0.08" font-size="12">3</text><text x="157" y="54" fill="#ffffff" opacity="0.09" font-size="12">W</text><text x="157" y="72" fill="#ffffff" opacity="0.11" font-size="12">6</text><text x="157" y="90" fill="#ffffff" opacity="0.12" font-size="12">|</text><text x="157" y="108" fill="#ffffff" opacity="0.14" font-size="12">~</text><text x="157" y="126" fill="#ffffff" opacity="0.15" font-size="12">/</text><text x="157" y="144" fill="#ffffff" opacity="0.17" font-size="12">C</text><text x="157" y="162" fill="#ffffff" opacity="0.18" font-size="12">$</text><text x="157" y="180" fill="#ffffff" opacity="0.20" font-size="12">B</text><text x="157" y="198" fill="#ffffff" opacity="0.21" font-size="12">_</text><text x="157" y="216" fill="#ffffff" opacity="0.23" font-size="12">C</text><text x="157" y="234" fill="#ffffff" opacity="0.24" font-size="12">7</text><text x="157" y="252" fill="#ffffff" opacity="0.26" font-size="12">X</text><text x="157" y="270" fill="#ffffff" opacity="0.27" font-size="12">~</text><text x="157" y="288" fill="#ffffff" opacity="0.29" font-size="12">-</text><text x="157" y="306" fill="#ffffff" opacity="0.30" font-size="12">H</text><text x="157" y="324" fill="#ffffff" opacity="0.32" font-size="12">Z</text></g>
+<g class="c6"><text x="186" y="0" fill="#ffffff" opacity="0.05" font-size="12">+</text><text x="186" y="18" fill="#ffffff" opacity="0.06" font-size="12">/</text><text x="186" y="36" fill="#ffffff" opacity="0.08" font-size="12">S</text><text x="186" y="54" fill="#ffffff" opacity="0.09" font-size="12">|</text><text x="186" y="72" fill="#ffffff" opacity="0.11" font-size="12">~</text><text x="186" y="90" fill="#ffffff" opacity="0.12" font-size="12">X</text><text x="186" y="108" fill="#ffffff" opacity="0.13" font-size="12">7</text><text x="186" y="126" fill="#ffffff" opacity="0.15" font-size="12">Z</text><text x="186" y="144" fill="#ffffff" opacity="0.16" font-size="12">#</text><text x="186" y="162" fill="#ffffff" opacity="0.18" font-size="12">A</text><text x="186" y="180" fill="#ffffff" opacity="0.19" font-size="12">D</text><text x="186" y="198" fill="#ffffff" opacity="0.20" font-size="12">|</text><text x="186" y="216" fill="#ffffff" opacity="0.22" font-size="12">E</text><text x="186" y="234" fill="#ffffff" opacity="0.23" font-size="12">K</text><text x="186" y="252" fill="#ffffff" opacity="0.25" font-size="12">A</text><text x="186" y="270" fill="#ffffff" opacity="0.26" font-size="12">R</text><text x="186" y="288" fill="#ffffff" opacity="0.27" font-size="12">7</text><text x="186" y="306" fill="#ffffff" opacity="0.29" font-size="12">!</text><text x="186" y="324" fill="#ffffff" opacity="0.30" font-size="12">O</text><text x="186" y="342" fill="#ffffff" opacity="0.32" font-size="12">L</text></g>
+<g class="c7"><text x="216" y="0" fill="#ffffff" opacity="0.05" font-size="12">L</text><text x="216" y="18" fill="#ffffff" opacity="0.06" font-size="12">C</text><text x="216" y="36" fill="#ffffff" opacity="0.08" font-size="12">X</text><text x="216" y="54" fill="#ffffff" opacity="0.09" font-size="12">!</text><text x="216" y="72" fill="#ffffff" opacity="0.10" font-size="12">5</text><text x="216" y="90" fill="#ffffff" opacity="0.12" font-size="12">N</text><text x="216" y="108" fill="#ffffff" opacity="0.13" font-size="12">H</text><text x="216" y="126" fill="#ffffff" opacity="0.14" font-size="12">^</text><text x="216" y="144" fill="#ffffff" opacity="0.16" font-size="12">M</text><text x="216" y="162" fill="#ffffff" opacity="0.17" font-size="12">C</text><text x="216" y="180" fill="#ffffff" opacity="0.18" font-size="12">$</text><text x="216" y="198" fill="#ffffff" opacity="0.20" font-size="12">E</text><text x="216" y="216" fill="#ffffff" opacity="0.21" font-size="12">K</text><text x="216" y="234" fill="#ffffff" opacity="0.22" font-size="12">Q</text><text x="216" y="252" fill="#ffffff" opacity="0.24" font-size="12">8</text><text x="216" y="270" fill="#ffffff" opacity="0.25" font-size="12">C</text><text x="216" y="288" fill="#ffffff" opacity="0.26" font-size="12">R</text><text x="216" y="306" fill="#ffffff" opacity="0.28" font-size="12">F</text><text x="216" y="324" fill="#ffffff" opacity="0.29" font-size="12">L</text><text x="216" y="342" fill="#ffffff" opacity="0.30" font-size="12">X</text><text x="216" y="360" fill="#ffffff" opacity="0.32" font-size="12">_</text></g>
+<g class="c8"><text x="245" y="0" fill="#ffffff" opacity="0.05" font-size="12">^</text><text x="245" y="18" fill="#ffffff" opacity="0.07" font-size="12">%</text><text x="245" y="36" fill="#ffffff" opacity="0.09" font-size="12">U</text><text x="245" y="54" fill="#ffffff" opacity="0.11" font-size="12">V</text><text x="245" y="72" fill="#ffffff" opacity="0.13" font-size="12">/</text><text x="245" y="90" fill="#ffffff" opacity="0.15" font-size="12">X</text><text x="245" y="108" fill="#ffffff" opacity="0.17" font-size="12">D</text><text x="245" y="126" fill="#ffffff" opacity="0.19" font-size="12">^</text><text x="245" y="144" fill="#ffffff" opacity="0.21" font-size="12">+</text><text x="245" y="162" fill="#ffffff" opacity="0.23" font-size="12">~</text><text x="245" y="180" fill="#ffffff" opacity="0.25" font-size="12">$</text><text x="245" y="198" fill="#ffffff" opacity="0.27" font-size="12">L</text><text x="245" y="216" fill="#ffffff" opacity="0.29" font-size="12">_</text><text x="245" y="234" fill="#ffffff" opacity="0.31" font-size="12">P</text></g>
+<g class="c9"><text x="275" y="0" fill="#ffffff" opacity="0.05" font-size="12">#</text><text x="275" y="18" fill="#ffffff" opacity="0.07" font-size="12">M</text><text x="275" y="36" fill="#ffffff" opacity="0.09" font-size="12">^</text><text x="275" y="54" fill="#ffffff" opacity="0.11" font-size="12">%</text><text x="275" y="72" fill="#ffffff" opacity="0.12" font-size="12">?</text><text x="275" y="90" fill="#ffffff" opacity="0.14" font-size="12">5</text><text x="275" y="108" fill="#ffffff" opacity="0.16" font-size="12">7</text><text x="275" y="126" fill="#ffffff" opacity="0.18" font-size="12">-</text><text x="275" y="144" fill="#ffffff" opacity="0.20" font-size="12">8</text><text x="275" y="162" fill="#ffffff" opacity="0.22" font-size="12">-</text><text x="275" y="180" fill="#ffffff" opacity="0.24" font-size="12">L</text><text x="275" y="198" fill="#ffffff" opacity="0.26" font-size="12">E</text><text x="275" y="216" fill="#ffffff" opacity="0.27" font-size="12">@</text><text x="275" y="234" fill="#ffffff" opacity="0.29" font-size="12">0</text><text x="275" y="252" fill="#ffffff" opacity="0.31" font-size="12">V</text></g>
+<g class="c10"><text x="304" y="0" fill="#ffffff" opacity="0.05" font-size="12">N</text><text x="304" y="18" fill="#ffffff" opacity="0.07" font-size="12">0</text><text x="304" y="36" fill="#ffffff" opacity="0.09" font-size="12">G</text><text x="304" y="54" fill="#ffffff" opacity="0.10" font-size="12">V</text><text x="304" y="72" fill="#ffffff" opacity="0.12" font-size="12">#</text><text x="304" y="90" fill="#ffffff" opacity="0.14" font-size="12">^</text><text x="304" y="108" fill="#ffffff" opacity="0.16" font-size="12">|</text><text x="304" y="126" fill="#ffffff" opacity="0.17" font-size="12">I</text><text x="304" y="144" fill="#ffffff" opacity="0.19" font-size="12">_</text><text x="304" y="162" fill="#ffffff" opacity="0.21" font-size="12">Q</text><text x="304" y="180" fill="#ffffff" opacity="0.23" font-size="12">0</text><text x="304" y="198" fill="#ffffff" opacity="0.24" font-size="12">E</text><text x="304" y="216" fill="#ffffff" opacity="0.26" font-size="12">R</text><text x="304" y="234" fill="#ffffff" opacity="0.28" font-size="12">S</text><text x="304" y="252" fill="#ffffff" opacity="0.30" font-size="12">~</text><text x="304" y="270" fill="#ffffff" opacity="0.31" font-size="12">8</text></g>
+<g class="c11"><text x="334" y="0" fill="#ffffff" opacity="0.05" font-size="12">^</text><text x="334" y="18" fill="#ffffff" opacity="0.07" font-size="12">B</text><text x="334" y="36" fill="#ffffff" opacity="0.08" font-size="12">W</text><text x="334" y="54" fill="#ffffff" opacity="0.10" font-size="12">A</text><text x="334" y="72" fill="#ffffff" opacity="0.12" font-size="12">+</text><text x="334" y="90" fill="#ffffff" opacity="0.13" font-size="12">2</text><text x="334" y="108" fill="#ffffff" opacity="0.15" font-size="12">Q</text><text x="334" y="126" fill="#ffffff" opacity="0.17" font-size="12">G</text><text x="334" y="144" fill="#ffffff" opacity="0.18" font-size="12">X</text><text x="334" y="162" fill="#ffffff" opacity="0.20" font-size="12">S</text><text x="334" y="180" fill="#ffffff" opacity="0.21" font-size="12">S</text><text x="334" y="198" fill="#ffffff" opacity="0.23" font-size="12">B</text><text x="334" y="216" fill="#ffffff" opacity="0.25" font-size="12">E</text><text x="334" y="234" fill="#ffffff" opacity="0.26" font-size="12">~</text><text x="334" y="252" fill="#ffffff" opacity="0.28" font-size="12">Z</text><text x="334" y="270" fill="#ffffff" opacity="0.30" font-size="12">A</text><text x="334" y="288" fill="#ffffff" opacity="0.31" font-size="12">H</text></g>
+<g class="c12"><text x="363" y="0" fill="#ffffff" opacity="0.05" font-size="12">-</text><text x="363" y="18" fill="#ffffff" opacity="0.07" font-size="12">0</text><text x="363" y="36" fill="#ffffff" opacity="0.08" font-size="12">8</text><text x="363" y="54" fill="#ffffff" opacity="0.10" font-size="12">H</text><text x="363" y="72" fill="#ffffff" opacity="0.11" font-size="12">*</text><text x="363" y="90" fill="#ffffff" opacity="0.13" font-size="12">C</text><text x="363" y="108" fill="#ffffff" opacity="0.14" font-size="12">9</text><text x="363" y="126" fill="#ffffff" opacity="0.16" font-size="12">@</text><text x="363" y="144" fill="#ffffff" opacity="0.17" font-size="12">9</text><text x="363" y="162" fill="#ffffff" opacity="0.19" font-size="12">@</text><text x="363" y="180" fill="#ffffff" opacity="0.21" font-size="12">_</text><text x="363" y="198" fill="#ffffff" opacity="0.22" font-size="12">N</text><text x="363" y="216" fill="#ffffff" opacity="0.24" font-size="12">R</text><text x="363" y="234" fill="#ffffff" opacity="0.25" font-size="12">W</text><text x="363" y="252" fill="#ffffff" opacity="0.27" font-size="12">R</text><text x="363" y="270" fill="#ffffff" opacity="0.28" font-size="12">L</text><text x="363" y="288" fill="#ffffff" opacity="0.30" font-size="12">F</text><text x="363" y="306" fill="#ffffff" opacity="0.31" font-size="12">F</text></g>
+<g class="c13"><text x="392" y="0" fill="#ffffff" opacity="0.05" font-size="12">~</text><text x="392" y="18" fill="#ffffff" opacity="0.06" font-size="12">8</text><text x="392" y="36" fill="#ffffff" opacity="0.08" font-size="12">H</text><text x="392" y="54" fill="#ffffff" opacity="0.09" font-size="12">8</text><text x="392" y="72" fill="#ffffff" opacity="0.11" font-size="12">=</text><text x="392" y="90" fill="#ffffff" opacity="0.12" font-size="12">D</text><text x="392" y="108" fill="#ffffff" opacity="0.14" font-size="12">X</text><text x="392" y="126" fill="#ffffff" opacity="0.15" font-size="12">%</text><text x="392" y="144" fill="#ffffff" opacity="0.17" font-size="12">~</text><text x="392" y="162" fill="#ffffff" opacity="0.18" font-size="12">|</text><text x="392" y="180" fill="#ffffff" opacity="0.20" font-size="12">%</text><text x="392" y="198" fill="#ffffff" opacity="0.21" font-size="12">1</text><text x="392" y="216" fill="#ffffff" opacity="0.23" font-size="12">/</text><text x="392" y="234" fill="#ffffff" opacity="0.24" font-size="12">-</text><text x="392" y="252" fill="#ffffff" opacity="0.26" font-size="12">1</text><text x="392" y="270" fill="#ffffff" opacity="0.27" font-size="12">T</text><text x="392" y="288" fill="#ffffff" opacity="0.29" font-size="12">X</text><text x="392" y="306" fill="#ffffff" opacity="0.30" font-size="12">X</text><text x="392" y="324" fill="#ffffff" opacity="0.32" font-size="12">C</text></g>
+<g class="c14"><text x="422" y="0" fill="#ffffff" opacity="0.05" font-size="12">7</text><text x="422" y="18" fill="#ffffff" opacity="0.06" font-size="12">/</text><text x="422" y="36" fill="#ffffff" opacity="0.08" font-size="12">S</text><text x="422" y="54" fill="#ffffff" opacity="0.09" font-size="12">^</text><text x="422" y="72" fill="#ffffff" opacity="0.11" font-size="12">U</text><text x="422" y="90" fill="#ffffff" opacity="0.12" font-size="12">H</text><text x="422" y="108" fill="#ffffff" opacity="0.13" font-size="12">H</text><text x="422" y="126" fill="#ffffff" opacity="0.15" font-size="12">~</text><text x="422" y="144" fill="#ffffff" opacity="0.16" font-size="12">G</text><text x="422" y="162" fill="#ffffff" opacity="0.18" font-size="12">3</text><text x="422" y="180" fill="#ffffff" opacity="0.19" font-size="12">~</text><text x="422" y="198" fill="#ffffff" opacity="0.20" font-size="12">R</text><text x="422" y="216" fill="#ffffff" opacity="0.22" font-size="12">X</text><text x="422" y="234" fill="#ffffff" opacity="0.23" font-size="12">Y</text><text x="422" y="252" fill="#ffffff" opacity="0.25" font-size="12">0</text><text x="422" y="270" fill="#ffffff" opacity="0.26" font-size="12">#</text><text x="422" y="288" fill="#ffffff" opacity="0.27" font-size="12">O</text><text x="422" y="306" fill="#ffffff" opacity="0.29" font-size="12">O</text><text x="422" y="324" fill="#ffffff" opacity="0.30" font-size="12">X</text><text x="422" y="342" fill="#ffffff" opacity="0.32" font-size="12">+</text></g>
+<g class="c15"><text x="451" y="0" fill="#ffffff" opacity="0.05" font-size="12">+</text><text x="451" y="18" fill="#ffffff" opacity="0.06" font-size="12">M</text><text x="451" y="36" fill="#ffffff" opacity="0.08" font-size="12">R</text><text x="451" y="54" fill="#ffffff" opacity="0.09" font-size="12">=</text><text x="451" y="72" fill="#ffffff" opacity="0.10" font-size="12">L</text><text x="451" y="90" fill="#ffffff" opacity="0.12" font-size="12">#</text><text x="451" y="108" fill="#ffffff" opacity="0.13" font-size="12">R</text><text x="451" y="126" fill="#ffffff" opacity="0.14" font-size="12">Z</text><text x="451" y="144" fill="#ffffff" opacity="0.16" font-size="12">@</text><text x="451" y="162" fill="#ffffff" opacity="0.17" font-size="12">*</text><text x="451" y="180" fill="#ffffff" opacity="0.18" font-size="12">U</text><text x="451" y="198" fill="#ffffff" opacity="0.20" font-size="12">/</text><text x="451" y="216" fill="#ffffff" opacity="0.21" font-size="12">/</text><text x="451" y="234" fill="#ffffff" opacity="0.22" font-size="12">W</text><text x="451" y="252" fill="#ffffff" opacity="0.24" font-size="12">N</text><text x="451" y="270" fill="#ffffff" opacity="0.25" font-size="12">V</text><text x="451" y="288" fill="#ffffff" opacity="0.26" font-size="12">U</text><text x="451" y="306" fill="#ffffff" opacity="0.28" font-size="12">!</text><text x="451" y="324" fill="#ffffff" opacity="0.29" font-size="12">N</text><text x="451" y="342" fill="#ffffff" opacity="0.30" font-size="12">=</text><text x="451" y="360" fill="#ffffff" opacity="0.32" font-size="12">%</text></g>
+<g class="c16"><text x="481" y="0" fill="#ffffff" opacity="0.05" font-size="12">8</text><text x="481" y="18" fill="#ffffff" opacity="0.07" font-size="12">K</text><text x="481" y="36" fill="#ffffff" opacity="0.09" font-size="12">Z</text><text x="481" y="54" fill="#ffffff" opacity="0.11" font-size="12">8</text><text x="481" y="72" fill="#ffffff" opacity="0.13" font-size="12">V</text><text x="481" y="90" fill="#ffffff" opacity="0.15" font-size="12">%</text><text x="481" y="108" fill="#ffffff" opacity="0.17" font-size="12">2</text><text x="481" y="126" fill="#ffffff" opacity="0.19" font-size="12">Q</text><text x="481" y="144" fill="#ffffff" opacity="0.21" font-size="12">V</text><text x="481" y="162" fill="#ffffff" opacity="0.23" font-size="12">X</text><text x="481" y="180" fill="#ffffff" opacity="0.25" font-size="12">2</text><text x="481" y="198" fill="#ffffff" opacity="0.27" font-size="12">|</text><text x="481" y="216" fill="#ffffff" opacity="0.29" font-size="12">N</text><text x="481" y="234" fill="#ffffff" opacity="0.31" font-size="12">O</text></g>
+<g class="c17"><text x="510" y="0" fill="#ffffff" opacity="0.05" font-size="12">0</text><text x="510" y="18" fill="#ffffff" opacity="0.07" font-size="12">^</text><text x="510" y="36" fill="#ffffff" opacity="0.09" font-size="12">E</text><text x="510" y="54" fill="#ffffff" opacity="0.11" font-size="12">G</text><text x="510" y="72" fill="#ffffff" opacity="0.12" font-size="12">G</text><text x="510" y="90" fill="#ffffff" opacity="0.14" font-size="12">I</text><text x="510" y="108" fill="#ffffff" opacity="0.16" font-size="12">C</text><text x="510" y="126" fill="#ffffff" opacity="0.18" font-size="12">#</text><text x="510" y="144" fill="#ffffff" opacity="0.20" font-size="12">?</text><text x="510" y="162" fill="#ffffff" opacity="0.22" font-size="12">Q</text><text x="510" y="180" fill="#ffffff" opacity="0.24" font-size="12">H</text><text x="510" y="198" fill="#ffffff" opacity="0.26" font-size="12">C</text><text x="510" y="216" fill="#ffffff" opacity="0.27" font-size="12">V</text><text x="510" y="234" fill="#ffffff" opacity="0.29" font-size="12">D</text><text x="510" y="252" fill="#ffffff" opacity="0.31" font-size="12">I</text></g>
+<g class="c18"><text x="539" y="0" fill="#ffffff" opacity="0.05" font-size="12">U</text><text x="539" y="18" fill="#ffffff" opacity="0.07" font-size="12">?</text><text x="539" y="36" fill="#ffffff" opacity="0.09" font-size="12">Z</text><text x="539" y="54" fill="#ffffff" opacity="0.10" font-size="12">^</text><text x="539" y="72" fill="#ffffff" opacity="0.12" font-size="12">P</text><text x="539" y="90" fill="#ffffff" opacity="0.14" font-size="12">|</text><text x="539" y="108" fill="#ffffff" opacity="0.16" font-size="12">A</text><text x="539" y="126" fill="#ffffff" opacity="0.17" font-size="12">T</text><text x="539" y="144" fill="#ffffff" opacity="0.19" font-size="12">#</text><text x="539" y="162" fill="#ffffff" opacity="0.21" font-size="12">B</text><text x="539" y="180" fill="#ffffff" opacity="0.23" font-size="12">I</text><text x="539" y="198" fill="#ffffff" opacity="0.24" font-size="12">T</text><text x="539" y="216" fill="#ffffff" opacity="0.26" font-size="12">Q</text><text x="539" y="234" fill="#ffffff" opacity="0.28" font-size="12">H</text><text x="539" y="252" fill="#ffffff" opacity="0.30" font-size="12">0</text><text x="539" y="270" fill="#ffffff" opacity="0.31" font-size="12">C</text></g>
+<g class="c19"><text x="569" y="0" fill="#ffffff" opacity="0.05" font-size="12">Q</text><text x="569" y="18" fill="#ffffff" opacity="0.07" font-size="12">#</text><text x="569" y="36" fill="#ffffff" opacity="0.08" font-size="12">G</text><text x="569" y="54" fill="#ffffff" opacity="0.10" font-size="12">1</text><text x="569" y="72" fill="#ffffff" opacity="0.12" font-size="12">Q</text><text x="569" y="90" fill="#ffffff" opacity="0.13" font-size="12">R</text><text x="569" y="108" fill="#ffffff" opacity="0.15" font-size="12">Q</text><text x="569" y="126" fill="#ffffff" opacity="0.17" font-size="12">U</text><text x="569" y="144" fill="#ffffff" opacity="0.18" font-size="12">8</text><text x="569" y="162" fill="#ffffff" opacity="0.20" font-size="12">N</text><text x="569" y="180" fill="#ffffff" opacity="0.21" font-size="12">R</text><text x="569" y="198" fill="#ffffff" opacity="0.23" font-size="12">G</text><text x="569" y="216" fill="#ffffff" opacity="0.25" font-size="12">?</text><text x="569" y="234" fill="#ffffff" opacity="0.26" font-size="12">D</text><text x="569" y="252" fill="#ffffff" opacity="0.28" font-size="12">M</text><text x="569" y="270" fill="#ffffff" opacity="0.30" font-size="12">U</text><text x="569" y="288" fill="#ffffff" opacity="0.31" font-size="12">^</text></g>
+<g class="c20"><text x="598" y="0" fill="#ffffff" opacity="0.05" font-size="12">C</text><text x="598" y="18" fill="#ffffff" opacity="0.07" font-size="12">Z</text><text x="598" y="36" fill="#ffffff" opacity="0.08" font-size="12">Y</text><text x="598" y="54" fill="#ffffff" opacity="0.10" font-size="12">0</text><text x="598" y="72" fill="#ffffff" opacity="0.11" font-size="12">L</text><text x="598" y="90" fill="#ffffff" opacity="0.13" font-size="12">1</text><text x="598" y="108" fill="#ffffff" opacity="0.14" font-size="12">!</text><text x="598" y="126" fill="#ffffff" opacity="0.16" font-size="12">I</text><text x="598" y="144" fill="#ffffff" opacity="0.17" font-size="12">D</text><text x="598" y="162" fill="#ffffff" opacity="0.19" font-size="12">8</text><text x="598" y="180" fill="#ffffff" opacity="0.21" font-size="12">Z</text><text x="598" y="198" fill="#ffffff" opacity="0.22" font-size="12">%</text><text x="598" y="216" fill="#ffffff" opacity="0.24" font-size="12">U</text><text x="598" y="234" fill="#ffffff" opacity="0.25" font-size="12">~</text><text x="598" y="252" fill="#ffffff" opacity="0.27" font-size="12">8</text><text x="598" y="270" fill="#ffffff" opacity="0.28" font-size="12">S</text><text x="598" y="288" fill="#ffffff" opacity="0.30" font-size="12">/</text><text x="598" y="306" fill="#ffffff" opacity="0.31" font-size="12">U</text></g>
+<g class="c21"><text x="628" y="0" fill="#ffffff" opacity="0.05" font-size="12">N</text><text x="628" y="18" fill="#ffffff" opacity="0.06" font-size="12">?</text><text x="628" y="36" fill="#ffffff" opacity="0.08" font-size="12">V</text><text x="628" y="54" fill="#ffffff" opacity="0.09" font-size="12">3</text><text x="628" y="72" fill="#ffffff" opacity="0.11" font-size="12">0</text><text x="628" y="90" fill="#ffffff" opacity="0.12" font-size="12">=</text><text x="628" y="108" fill="#ffffff" opacity="0.14" font-size="12">3</text><text x="628" y="126" fill="#ffffff" opacity="0.15" font-size="12">3</text><text x="628" y="144" fill="#ffffff" opacity="0.17" font-size="12">W</text><text x="628" y="162" fill="#ffffff" opacity="0.18" font-size="12">K</text><text x="628" y="180" fill="#ffffff" opacity="0.20" font-size="12">@</text><text x="628" y="198" fill="#ffffff" opacity="0.21" font-size="12">0</text><text x="628" y="216" fill="#ffffff" opacity="0.23" font-size="12">D</text><text x="628" y="234" fill="#ffffff" opacity="0.24" font-size="12">X</text><text x="628" y="252" fill="#ffffff" opacity="0.26" font-size="12">P</text><text x="628" y="270" fill="#ffffff" opacity="0.27" font-size="12">!</text><text x="628" y="288" fill="#ffffff" opacity="0.29" font-size="12">Y</text><text x="628" y="306" fill="#ffffff" opacity="0.30" font-size="12">7</text><text x="628" y="324" fill="#ffffff" opacity="0.32" font-size="12">B</text></g>
+<g class="c22"><text x="657" y="0" fill="#ffffff" opacity="0.05" font-size="12">%</text><text x="657" y="18" fill="#ffffff" opacity="0.06" font-size="12">N</text><text x="657" y="36" fill="#ffffff" opacity="0.08" font-size="12">4</text><text x="657" y="54" fill="#ffffff" opacity="0.09" font-size="12">5</text><text x="657" y="72" fill="#ffffff" opacity="0.11" font-size="12">5</text><text x="657" y="90" fill="#ffffff" opacity="0.12" font-size="12">T</text><text x="657" y="108" fill="#ffffff" opacity="0.13" font-size="12">?</text><text x="657" y="126" fill="#ffffff" opacity="0.15" font-size="12">%</text><text x="657" y="144" fill="#ffffff" opacity="0.16" font-size="12">%</text><text x="657" y="162" fill="#ffffff" opacity="0.18" font-size="12">F</text><text x="657" y="180" fill="#ffffff" opacity="0.19" font-size="12">S</text><text x="657" y="198" fill="#ffffff" opacity="0.20" font-size="12">$</text><text x="657" y="216" fill="#ffffff" opacity="0.22" font-size="12">W</text><text x="657" y="234" fill="#ffffff" opacity="0.23" font-size="12">Q</text><text x="657" y="252" fill="#ffffff" opacity="0.25" font-size="12">1</text><text x="657" y="270" fill="#ffffff" opacity="0.26" font-size="12">6</text><text x="657" y="288" fill="#ffffff" opacity="0.27" font-size="12">8</text><text x="657" y="306" fill="#ffffff" opacity="0.29" font-size="12">#</text><text x="657" y="324" fill="#ffffff" opacity="0.30" font-size="12">W</text><text x="657" y="342" fill="#ffffff" opacity="0.32" font-size="12">*</text></g>
+<g class="c23"><text x="686" y="0" fill="#ffffff" opacity="0.05" font-size="12">8</text><text x="686" y="18" fill="#ffffff" opacity="0.06" font-size="12">L</text><text x="686" y="36" fill="#ffffff" opacity="0.08" font-size="12">P</text><text x="686" y="54" fill="#ffffff" opacity="0.09" font-size="12">R</text><text x="686" y="72" fill="#ffffff" opacity="0.10" font-size="12">R</text><text x="686" y="90" fill="#ffffff" opacity="0.12" font-size="12">E</text><text x="686" y="108" fill="#ffffff" opacity="0.13" font-size="12">|</text><text x="686" y="126" fill="#ffffff" opacity="0.14" font-size="12">O</text><text x="686" y="144" fill="#ffffff" opacity="0.16" font-size="12">U</text><text x="686" y="162" fill="#ffffff" opacity="0.17" font-size="12">/</text><text x="686" y="180" fill="#ffffff" opacity="0.18" font-size="12">A</text><text x="686" y="198" fill="#ffffff" opacity="0.20" font-size="12">P</text><text x="686" y="216" fill="#ffffff" opacity="0.21" font-size="12">@</text><text x="686" y="234" fill="#ffffff" opacity="0.22" font-size="12">=</text><text x="686" y="252" fill="#ffffff" opacity="0.24" font-size="12">B</text><text x="686" y="270" fill="#ffffff" opacity="0.25" font-size="12">F</text><text x="686" y="288" fill="#ffffff" opacity="0.26" font-size="12">S</text><text x="686" y="306" fill="#ffffff" opacity="0.28" font-size="12">%</text><text x="686" y="324" fill="#ffffff" opacity="0.29" font-size="12">+</text><text x="686" y="342" fill="#ffffff" opacity="0.30" font-size="12">|</text><text x="686" y="360" fill="#ffffff" opacity="0.32" font-size="12">9</text></g>
+<g class="c24"><text x="716" y="0" fill="#ffffff" opacity="0.05" font-size="12">/</text><text x="716" y="18" fill="#ffffff" opacity="0.07" font-size="12">A</text><text x="716" y="36" fill="#ffffff" opacity="0.09" font-size="12">C</text><text x="716" y="54" fill="#ffffff" opacity="0.11" font-size="12">C</text><text x="716" y="72" fill="#ffffff" opacity="0.13" font-size="12">-</text><text x="716" y="90" fill="#ffffff" opacity="0.15" font-size="12">T</text><text x="716" y="108" fill="#ffffff" opacity="0.17" font-size="12">%</text><text x="716" y="126" fill="#ffffff" opacity="0.19" font-size="12">!</text><text x="716" y="144" fill="#ffffff" opacity="0.21" font-size="12">-</text><text x="716" y="162" fill="#ffffff" opacity="0.23" font-size="12">F</text><text x="716" y="180" fill="#ffffff" opacity="0.25" font-size="12">+</text><text x="716" y="198" fill="#ffffff" opacity="0.27" font-size="12">O</text><text x="716" y="216" fill="#ffffff" opacity="0.29" font-size="12">8</text><text x="716" y="234" fill="#ffffff" opacity="0.31" font-size="12">B</text></g>
+<g class="c25"><text x="745" y="0" fill="#ffffff" opacity="0.05" font-size="12">9</text><text x="745" y="18" fill="#ffffff" opacity="0.07" font-size="12">9</text><text x="745" y="36" fill="#ffffff" opacity="0.09" font-size="12">+</text><text x="745" y="54" fill="#ffffff" opacity="0.11" font-size="12">I</text><text x="745" y="72" fill="#ffffff" opacity="0.12" font-size="12">=</text><text x="745" y="90" fill="#ffffff" opacity="0.14" font-size="12">0</text><text x="745" y="108" fill="#ffffff" opacity="0.16" font-size="12">E</text><text x="745" y="126" fill="#ffffff" opacity="0.18" font-size="12">W</text><text x="745" y="144" fill="#ffffff" opacity="0.20" font-size="12">T</text><text x="745" y="162" fill="#ffffff" opacity="0.22" font-size="12">C</text><text x="745" y="180" fill="#ffffff" opacity="0.24" font-size="12">!</text><text x="745" y="198" fill="#ffffff" opacity="0.26" font-size="12">^</text><text x="745" y="216" fill="#ffffff" opacity="0.27" font-size="12">1</text><text x="745" y="234" fill="#ffffff" opacity="0.29" font-size="12">E</text><text x="745" y="252" fill="#ffffff" opacity="0.31" font-size="12">H</text></g>
+<g class="c26"><text x="775" y="0" fill="#ffffff" opacity="0.05" font-size="12">W</text><text x="775" y="18" fill="#ffffff" opacity="0.07" font-size="12">Q</text><text x="775" y="36" fill="#ffffff" opacity="0.09" font-size="12">%</text><text x="775" y="54" fill="#ffffff" opacity="0.10" font-size="12">L</text><text x="775" y="72" fill="#ffffff" opacity="0.12" font-size="12">G</text><text x="775" y="90" fill="#ffffff" opacity="0.14" font-size="12">A</text><text x="775" y="108" fill="#ffffff" opacity="0.16" font-size="12">@</text><text x="775" y="126" fill="#ffffff" opacity="0.17" font-size="12">+</text><text x="775" y="144" fill="#ffffff" opacity="0.19" font-size="12">Y</text><text x="775" y="162" fill="#ffffff" opacity="0.21" font-size="12">_</text><text x="775" y="180" fill="#ffffff" opacity="0.23" font-size="12">3</text><text x="775" y="198" fill="#ffffff" opacity="0.24" font-size="12">4</text><text x="775" y="216" fill="#ffffff" opacity="0.26" font-size="12">@</text><text x="775" y="234" fill="#ffffff" opacity="0.28" font-size="12">O</text><text x="775" y="252" fill="#ffffff" opacity="0.30" font-size="12">E</text><text x="775" y="270" fill="#ffffff" opacity="0.31" font-size="12">/</text></g>
+<g class="c27"><text x="804" y="0" fill="#ffffff" opacity="0.05" font-size="12">P</text><text x="804" y="18" fill="#ffffff" opacity="0.07" font-size="12">T</text><text x="804" y="36" fill="#ffffff" opacity="0.08" font-size="12">X</text><text x="804" y="54" fill="#ffffff" opacity="0.10" font-size="12">O</text><text x="804" y="72" fill="#ffffff" opacity="0.12" font-size="12">^</text><text x="804" y="90" fill="#ffffff" opacity="0.13" font-size="12">P</text><text x="804" y="108" fill="#ffffff" opacity="0.15" font-size="12">G</text><text x="804" y="126" fill="#ffffff" opacity="0.17" font-size="12">Y</text><text x="804" y="144" fill="#ffffff" opacity="0.18" font-size="12">O</text><text x="804" y="162" fill="#ffffff" opacity="0.20" font-size="12">A</text><text x="804" y="180" fill="#ffffff" opacity="0.21" font-size="12">J</text><text x="804" y="198" fill="#ffffff" opacity="0.23" font-size="12">4</text><text x="804" y="216" fill="#ffffff" opacity="0.25" font-size="12">O</text><text x="804" y="234" fill="#ffffff" opacity="0.26" font-size="12">N</text><text x="804" y="252" fill="#ffffff" opacity="0.28" font-size="12">7</text><text x="804" y="270" fill="#ffffff" opacity="0.30" font-size="12">J</text><text x="804" y="288" fill="#ffffff" opacity="0.31" font-size="12">?</text></g>
+<g class="c28"><text x="834" y="0" fill="#ffffff" opacity="0.05" font-size="12">W</text><text x="834" y="18" fill="#ffffff" opacity="0.07" font-size="12">K</text><text x="834" y="36" fill="#ffffff" opacity="0.08" font-size="12">_</text><text x="834" y="54" fill="#ffffff" opacity="0.10" font-size="12">X</text><text x="834" y="72" fill="#ffffff" opacity="0.11" font-size="12">0</text><text x="834" y="90" fill="#ffffff" opacity="0.13" font-size="12">P</text><text x="834" y="108" fill="#ffffff" opacity="0.14" font-size="12">B</text><text x="834" y="126" fill="#ffffff" opacity="0.16" font-size="12">D</text><text x="834" y="144" fill="#ffffff" opacity="0.17" font-size="12">5</text><text x="834" y="162" fill="#ffffff" opacity="0.19" font-size="12">Q</text><text x="834" y="180" fill="#ffffff" opacity="0.21" font-size="12">L</text><text x="834" y="198" fill="#ffffff" opacity="0.22" font-size="12">/</text><text x="834" y="216" fill="#ffffff" opacity="0.24" font-size="12">=</text><text x="834" y="234" fill="#ffffff" opacity="0.25" font-size="12">W</text><text x="834" y="252" fill="#ffffff" opacity="0.27" font-size="12">H</text><text x="834" y="270" fill="#ffffff" opacity="0.28" font-size="12">#</text><text x="834" y="288" fill="#ffffff" opacity="0.30" font-size="12">2</text><text x="834" y="306" fill="#ffffff" opacity="0.31" font-size="12">R</text></g>
+<g class="c29"><text x="863" y="0" fill="#ffffff" opacity="0.05" font-size="12">N</text><text x="863" y="18" fill="#ffffff" opacity="0.06" font-size="12">!</text><text x="863" y="36" fill="#ffffff" opacity="0.08" font-size="12">F</text><text x="863" y="54" fill="#ffffff" opacity="0.09" font-size="12">E</text><text x="863" y="72" fill="#ffffff" opacity="0.11" font-size="12">Q</text><text x="863" y="90" fill="#ffffff" opacity="0.12" font-size="12">D</text><text x="863" y="108" fill="#ffffff" opacity="0.14" font-size="12">3</text><text x="863" y="126" fill="#ffffff" opacity="0.15" font-size="12">0</text><text x="863" y="144" fill="#ffffff" opacity="0.17" font-size="12">2</text><text x="863" y="162" fill="#ffffff" opacity="0.18" font-size="12">G</text><text x="863" y="180" fill="#ffffff" opacity="0.20" font-size="12">-</text><text x="863" y="198" fill="#ffffff" opacity="0.21" font-size="12">Q</text><text x="863" y="216" fill="#ffffff" opacity="0.23" font-size="12">U</text><text x="863" y="234" fill="#ffffff" opacity="0.24" font-size="12">D</text><text x="863" y="252" fill="#ffffff" opacity="0.26" font-size="12">G</text><text x="863" y="270" fill="#ffffff" opacity="0.27" font-size="12">V</text><text x="863" y="288" fill="#ffffff" opacity="0.29" font-size="12">7</text><text x="863" y="306" fill="#ffffff" opacity="0.30" font-size="12">$</text><text x="863" y="324" fill="#ffffff" opacity="0.32" font-size="12">2</text></g>
+<g class="c30"><text x="892" y="0" fill="#ffffff" opacity="0.05" font-size="12">0</text><text x="892" y="18" fill="#ffffff" opacity="0.06" font-size="12">7</text><text x="892" y="36" fill="#ffffff" opacity="0.08" font-size="12">E</text><text x="892" y="54" fill="#ffffff" opacity="0.09" font-size="12">*</text><text x="892" y="72" fill="#ffffff" opacity="0.11" font-size="12">8</text><text x="892" y="90" fill="#ffffff" opacity="0.12" font-size="12">4</text><text x="892" y="108" fill="#ffffff" opacity="0.13" font-size="12">|</text><text x="892" y="126" fill="#ffffff" opacity="0.15" font-size="12">Y</text><text x="892" y="144" fill="#ffffff" opacity="0.16" font-size="12">A</text><text x="892" y="162" fill="#ffffff" opacity="0.18" font-size="12">X</text><text x="892" y="180" fill="#ffffff" opacity="0.19" font-size="12">X</text><text x="892" y="198" fill="#ffffff" opacity="0.20" font-size="12">P</text><text x="892" y="216" fill="#ffffff" opacity="0.22" font-size="12">W</text><text x="892" y="234" fill="#ffffff" opacity="0.23" font-size="12">P</text><text x="892" y="252" fill="#ffffff" opacity="0.25" font-size="12">I</text><text x="892" y="270" fill="#ffffff" opacity="0.26" font-size="12">#</text><text x="892" y="288" fill="#ffffff" opacity="0.27" font-size="12">7</text><text x="892" y="306" fill="#ffffff" opacity="0.29" font-size="12">5</text><text x="892" y="324" fill="#ffffff" opacity="0.30" font-size="12">M</text><text x="892" y="342" fill="#ffffff" opacity="0.32" font-size="12">B</text></g>
+<g class="c31"><text x="922" y="0" fill="#ffffff" opacity="0.05" font-size="12">7</text><text x="922" y="18" fill="#ffffff" opacity="0.06" font-size="12">E</text><text x="922" y="36" fill="#ffffff" opacity="0.08" font-size="12">F</text><text x="922" y="54" fill="#ffffff" opacity="0.09" font-size="12">F</text><text x="922" y="72" fill="#ffffff" opacity="0.10" font-size="12">C</text><text x="922" y="90" fill="#ffffff" opacity="0.12" font-size="12">8</text><text x="922" y="108" fill="#ffffff" opacity="0.13" font-size="12">4</text><text x="922" y="126" fill="#ffffff" opacity="0.14" font-size="12">F</text><text x="922" y="144" fill="#ffffff" opacity="0.16" font-size="12">|</text><text x="922" y="162" fill="#ffffff" opacity="0.17" font-size="12">Y</text><text x="922" y="180" fill="#ffffff" opacity="0.18" font-size="12">N</text><text x="922" y="198" fill="#ffffff" opacity="0.20" font-size="12">1</text><text x="922" y="216" fill="#ffffff" opacity="0.21" font-size="12">#</text><text x="922" y="234" fill="#ffffff" opacity="0.22" font-size="12">|</text><text x="922" y="252" fill="#ffffff" opacity="0.24" font-size="12">6</text><text x="922" y="270" fill="#ffffff" opacity="0.25" font-size="12">J</text><text x="922" y="288" fill="#ffffff" opacity="0.26" font-size="12">|</text><text x="922" y="306" fill="#ffffff" opacity="0.28" font-size="12">H</text><text x="922" y="324" fill="#ffffff" opacity="0.29" font-size="12">6</text><text x="922" y="342" fill="#ffffff" opacity="0.30" font-size="12">E</text><text x="922" y="360" fill="#ffffff" opacity="0.32" font-size="12">~</text></g>
+<g class="c32"><text x="951" y="0" fill="#ffffff" opacity="0.05" font-size="12">C</text><text x="951" y="18" fill="#ffffff" opacity="0.07" font-size="12">S</text><text x="951" y="36" fill="#ffffff" opacity="0.09" font-size="12">7</text><text x="951" y="54" fill="#ffffff" opacity="0.11" font-size="12">E</text><text x="951" y="72" fill="#ffffff" opacity="0.13" font-size="12">S</text><text x="951" y="90" fill="#ffffff" opacity="0.15" font-size="12">+</text><text x="951" y="108" fill="#ffffff" opacity="0.17" font-size="12">J</text><text x="951" y="126" fill="#ffffff" opacity="0.19" font-size="12">U</text><text x="951" y="144" fill="#ffffff" opacity="0.21" font-size="12">5</text><text x="951" y="162" fill="#ffffff" opacity="0.23" font-size="12">K</text><text x="951" y="180" fill="#ffffff" opacity="0.25" font-size="12">Z</text><text x="951" y="198" fill="#ffffff" opacity="0.27" font-size="12">#</text><text x="951" y="216" fill="#ffffff" opacity="0.29" font-size="12">N</text><text x="951" y="234" fill="#ffffff" opacity="0.31" font-size="12">O</text></g>
+<g class="c33"><text x="981" y="0" fill="#ffffff" opacity="0.05" font-size="12">9</text><text x="981" y="18" fill="#ffffff" opacity="0.07" font-size="12">9</text><text x="981" y="36" fill="#ffffff" opacity="0.09" font-size="12">3</text><text x="981" y="54" fill="#ffffff" opacity="0.11" font-size="12">Y</text><text x="981" y="72" fill="#ffffff" opacity="0.12" font-size="12">^</text><text x="981" y="90" fill="#ffffff" opacity="0.14" font-size="12">E</text><text x="981" y="108" fill="#ffffff" opacity="0.16" font-size="12">U</text><text x="981" y="126" fill="#ffffff" opacity="0.18" font-size="12">F</text><text x="981" y="144" fill="#ffffff" opacity="0.20" font-size="12">X</text><text x="981" y="162" fill="#ffffff" opacity="0.22" font-size="12">$</text><text x="981" y="180" fill="#ffffff" opacity="0.24" font-size="12">?</text><text x="981" y="198" fill="#ffffff" opacity="0.26" font-size="12">Z</text><text x="981" y="216" fill="#ffffff" opacity="0.27" font-size="12">6</text><text x="981" y="234" fill="#ffffff" opacity="0.29" font-size="12">+</text><text x="981" y="252" fill="#ffffff" opacity="0.31" font-size="12">X</text></g>
+</g>
+    <g id="matrix-title">
+      <g class="frame-0">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">916 !MDX/B</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
 
-    <g class="frame-1">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">@O2 7SO!EM</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+      <g class="frame-1">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">H6P JGV?7U</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
 
-    <g class="frame-2">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">L=1 ?X?L9N</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+      <g class="frame-2">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">B0? N_7UXU</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
 
-    <g class="frame-3">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">/JA %|VVAR</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+      <g class="frame-3">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">+CF H8G1EM</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
 
-    <g class="frame-4">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">H9F KM-M^1</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+      <g class="frame-4">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">H0~ NBGY9Z</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
 
-    <g class="frame-5">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">HT| VIU6NQ</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+      <g class="frame-5">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">H3I 4G0SGN</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
 
-    <g class="frame-6">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">$AW NG_?I8</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+      <g class="frame-6">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">WZ+ ~%UKEN</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
 
-    <g class="frame-7">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">%U| X#9ZC8</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+      <g class="frame-7">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">Q?Y IGUR8N</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
 
-    <g class="frame-8">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">UCI ^2+/E9</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+      <g class="frame-8">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">HT+ 0ETL4+</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
 
-    <g class="frame-9">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">HAI N3UQEN</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+      <g class="frame-9">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">LAV NG3O64</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
 
-    <g class="frame-10">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6">HAI NGUYEN</text>
-      <text x="475" y="172" text-anchor="middle" font-size="13" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.85">SYSTEMS ARCHITECT  /  AI SYSTEMS FOUNDER  @  I2FLABS</text>
-      <text x="475" y="198" text-anchor="middle" font-size="11" font-weight="500" fill="#ffffff" letter-spacing="3" opacity="0.5">[ KERNEL_DECRYPTED // AUTONOMOUS_AI_CORE_ACTIVE ]</text>
-    </g>
+      <g class="frame-10">
+        <!-- Corner Matrix Telemetry -->
+        <text x="30" y="45" font-size="10" font-weight="600" fill="#ffffff" opacity="0.4" letter-spacing="2">[ NODE: AEVUM_CORE // ID: 0x7B9F1D ]</text>
+        <text x="970" y="45" text-anchor="end" font-size="10" font-weight="600" fill="#ffffff" opacity="0.4" letter-spacing="2">[ THREAT_VECTOR: EXPONENTIAL ]</text>
 
-    <g class="frame-11">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">HAI NCHY?N</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+        <!-- Main Title -->
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8">HAI NGUYEN</text>
+        <!-- Subtitle -->
+        <text x="500" y="206" text-anchor="middle" font-size="13" font-weight="600" fill="#ffffff" letter-spacing="5" opacity="0.85">SYSTEMS ARCHITECT  /  AI SYSTEMS FOUNDER  @  I2FLABS</text>
+        <!-- Telemetry Badge -->
+        <text x="500" y="236" text-anchor="middle" font-size="11" font-weight="500" fill="#ffffff" letter-spacing="3" opacity="0.5">[ KERNEL_DECRYPTED // AUTONOMOUS_AGENTIC_MESH_ONLINE ]</text>
 
-    <g class="frame-12">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">*AF |YZYSN</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+        <!-- Bottom Telemetry Bar -->
+        <text x="30" y="315" font-size="10" font-weight="500" fill="#ffffff" opacity="0.35" letter-spacing="2">PIPERNET_PEER_STATE: SYNCHRONIZED</text>
+        <text x="970" y="315" text-anchor="end" font-size="10" font-weight="500" fill="#ffffff" opacity="0.35" letter-spacing="2">LIF_NEURAL_FREQ: 120HZ // MERKLE_ROOT: VALID</text>
+      </g>
 
-    <g class="frame-13">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">HRY /9UYEE</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+      <g class="frame-11">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">HAI N!K!EN</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
 
-    <g class="frame-14">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">6-I |G9UE|</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+      <g class="frame-12">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">~%I ?G$Y6N</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
 
-    <g class="frame-15">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">JLI N=-EJD</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+      <g class="frame-13">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">HA^ NJU@E1</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
 
-    <g class="frame-16">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">O0O NWB+AN</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+      <g class="frame-14">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">JAI @0KY0I</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
 
-    <g class="frame-17">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">H0= N8UF1C</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+      <g class="frame-15">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">WIP $O#/E=</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
 
-    <g class="frame-18">
-      <text x="475" y="135" text-anchor="middle" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="6" opacity="0.8">^TZ R9-^@R</text>
-      <text x="475" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_MATRIX...</text>
-    </g>
+      <g class="frame-16">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">CAI NA!HJ5</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
 
-  </g>
-</svg>
+      <g class="frame-17">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">%A2 L~K/_N</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
+
+      <g class="frame-18">
+        <text x="500" y="165" text-anchor="middle" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="8" opacity="0.8">%~Z S-F@S5</text>
+        <text x="500" y="206" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff" letter-spacing="4" opacity="0.4">DECRYPTING_IDENTITY_STREAM...</text>
+      </g>
+</g>
+  </svg>
