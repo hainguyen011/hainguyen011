@@ -85,8 +85,8 @@
 
 <table width="100%">
   <tr>
-    <td width="20%" valign="middle"><strong>AGENTIC</strong></td>
-    <td valign="middle">
+    <td width="18%" valign="middle"><strong>AGENTIC</strong></td>
+    <td width="82%" valign="middle">
       <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=anthropic&logoColor=white" />
       <img src="https://img.shields.io/badge/Gemini_Flash-000000?style=flat-square&logo=google&logoColor=white" />
       <img src="https://img.shields.io/badge/Qdrant-000000?style=flat-square" />
@@ -95,8 +95,8 @@
     </td>
   </tr>
   <tr>
-    <td width="20%" valign="middle"><strong>ARCHITECTURE</strong></td>
-    <td valign="middle">
+    <td width="18%" valign="middle"><strong>ARCHITECTURE</strong></td>
+    <td width="82%" valign="middle">
       <img src="https://img.shields.io/badge/DDD-000000?style=flat-square" />
       <img src="https://img.shields.io/badge/Event--Driven-000000?style=flat-square" />
       <img src="https://img.shields.io/badge/Local--First_CRDT-000000?style=flat-square" />
@@ -105,8 +105,8 @@
     </td>
   </tr>
   <tr>
-    <td width="20%" valign="middle"><strong>BACKEND</strong></td>
-    <td valign="middle">
+    <td width="18%" valign="middle"><strong>BACKEND</strong></td>
+    <td width="82%" valign="middle">
       <img src="https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=white" />
       <img src="https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=nodedotjs&logoColor=white" />
       <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" />
@@ -116,8 +116,8 @@
     </td>
   </tr>
   <tr>
-    <td width="20%" valign="middle"><strong>CLIENT</strong></td>
-    <td valign="middle">
+    <td width="18%" valign="middle"><strong>CLIENT</strong></td>
+    <td width="82%" valign="middle">
       <img src="https://img.shields.io/badge/Electron-000000?style=flat-square&logo=electron&logoColor=white" />
       <img src="https://img.shields.io/badge/React_19-000000?style=flat-square&logo=react&logoColor=white" />
       <img src="https://img.shields.io/badge/Vite-000000?style=flat-square&logo=vite&logoColor=white" />
@@ -125,12 +125,14 @@
     </td>
   </tr>
   <tr>
-    <td width="20%" valign="middle"><strong>INFRA</strong></td>
-    <td valign="middle">
+    <td width="18%" valign="middle"><strong>INFRA</strong></td>
+    <td width="82%" valign="middle">
       <img src="https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=white" />
       <img src="https://img.shields.io/badge/Kubernetes-000000?style=flat-square&logo=kubernetes&logoColor=white" />
       <img src="https://img.shields.io/badge/Nginx-000000?style=flat-square&logo=nginx&logoColor=white" />
       <img src="https://img.shields.io/badge/GitHub_Actions-000000?style=flat-square&logo=github-actions&logoColor=white" />
+      <br/>
+      <img src="./assets/spacer.svg" width="950" height="1" alt="" />
     </td>
   </tr>
 </table>
