@@ -89,15 +89,9 @@
 
 <img src="./assets/matrix-divider.svg" width="100%" alt="---" />
 
-## 3D CONTRIBUTION TOPOLOGY
+## OFFLINE RUNNER // DINO.EXE
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/hainguyen011/hainguyen011/output-3d-contrib/profile-night-rainbow.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hainguyen011/hainguyen011/output-3d-contrib/profile-green.svg" />
-    <img alt="3D Contribution Graph" src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
-  </picture>
-</div>
+<img src="./assets/matrix-dino.svg" width="100%" alt="Matrix Chrome Dino Runner" />
 
 <img src="./assets/matrix-divider.svg" width="100%" alt="---" />
 
