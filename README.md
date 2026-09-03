@@ -1,5 +1,12 @@
 <div align="center">
 
+  <!-- I2FLABS LOGO -->
+  <a href="https://github.com/hainguyen011">
+    <img src="./assets/I2FLabs-logo.png" width="110" alt="I2FLabs" style="filter: drop-shadow(0 0 16px rgba(255,255,255,0.2));" />
+  </a>
+
+  <br/><br/>
+
   <!-- 1. HERO MATRIX RAIN & IDENTITY -->
   <img src="./assets/matrix-banner.svg" width="100%" alt="HAI NGUYEN // MATRIX CORE" />
 
@@ -134,26 +141,6 @@
 
 <img src="./assets/matrix-divider.svg" width="100%" alt="---" />
 
-## TELEMETRY
-
-<div align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=hainguyen011&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=ffffff&icon_color=ffffff&text_color=94a3b8&include_all_commits=true&count_private=true"
-    height="165"
-  />
-  &nbsp;
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=hainguyen011&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=94a3b8&langs_count=8"
-    height="165"
-  />
-  <br/><br/>
-  <img
-    src="https://streak-stats.demolab.com/?user=hainguyen011&theme=tokyonight&hide_border=true&background=00000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=94a3b8&sideNums=ffffff&dates=94a3b8"
-  />
-</div>
-
-<img src="./assets/matrix-divider.svg" width="100%" alt="---" />
-
 ## 3D CONTRIBUTION TOPOLOGY
 
 <div align="center">
@@ -175,10 +162,16 @@
 //                                              -- hainguyen011
 ```
 
-<sub>
-  Engineered by <a href="https://github.com/hainguyen011"><strong>Hai Nguyen</strong></a>
-  &mdash; Founder at <strong>I2FLabs</strong>
-  &mdash; Creator of <strong>Aevum OS</strong> and <strong>PiperNet</strong>
-</sub>
+<p align="center">
+  <a href="https://github.com/hainguyen011">
+    <img src="./assets/I2FLabs-logo.png" width="42" alt="I2FLabs" />
+  </a>
+  <br/>
+  <sub>
+    Engineered by <a href="https://github.com/hainguyen011"><strong>Hai Nguyen</strong></a>
+    &mdash; Founder at <strong>I2FLabs</strong>
+    &mdash; Creator of <strong>Aevum OS</strong> and <strong>PiperNet</strong>
+  </sub>
+</p>
 
 </div>
