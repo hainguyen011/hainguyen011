@@ -83,51 +83,59 @@
 
 ## LOADED MODULES
 
-<p align="left">
-  <sub><strong>AGENTIC</strong></sub><br/>
-  <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gemini_Flash-000000?style=flat-square&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Qdrant-000000?style=flat-square" />
-  <img src="https://img.shields.io/badge/Neo4j-000000?style=flat-square&logo=neo4j&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spiking_LIF-000000?style=flat-square" />
-</p>
+<table width="100%">
+  <tr>
+    <td width="20%" valign="middle"><strong>AGENTIC</strong></td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=anthropic&logoColor=white" />
+      <img src="https://img.shields.io/badge/Gemini_Flash-000000?style=flat-square&logo=google&logoColor=white" />
+      <img src="https://img.shields.io/badge/Qdrant-000000?style=flat-square" />
+      <img src="https://img.shields.io/badge/Neo4j-000000?style=flat-square&logo=neo4j&logoColor=white" />
+      <img src="https://img.shields.io/badge/Spiking_LIF-000000?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle"><strong>ARCHITECTURE</strong></td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/DDD-000000?style=flat-square" />
+      <img src="https://img.shields.io/badge/Event--Driven-000000?style=flat-square" />
+      <img src="https://img.shields.io/badge/Local--First_CRDT-000000?style=flat-square" />
+      <img src="https://img.shields.io/badge/Clean_Architecture-000000?style=flat-square" />
+      <img src="https://img.shields.io/badge/CQRS-000000?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle"><strong>BACKEND</strong></td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=white" />
+      <img src="https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=nodedotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" />
+      <img src="https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/Redis-000000?style=flat-square&logo=redis&logoColor=white" />
+      <img src="https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle"><strong>CLIENT</strong></td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/Electron-000000?style=flat-square&logo=electron&logoColor=white" />
+      <img src="https://img.shields.io/badge/React_19-000000?style=flat-square&logo=react&logoColor=white" />
+      <img src="https://img.shields.io/badge/Vite-000000?style=flat-square&logo=vite&logoColor=white" />
+      <img src="https://img.shields.io/badge/SCSS-000000?style=flat-square&logo=sass&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" valign="middle"><strong>INFRA</strong></td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kubernetes-000000?style=flat-square&logo=kubernetes&logoColor=white" />
+      <img src="https://img.shields.io/badge/Nginx-000000?style=flat-square&logo=nginx&logoColor=white" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-000000?style=flat-square&logo=github-actions&logoColor=white" />
+    </td>
+  </tr>
+</table>
 
-<p align="left">
-  <sub><strong>ARCHITECTURE</strong></sub><br/>
-  <img src="https://img.shields.io/badge/DDD-000000?style=flat-square" />
-  <img src="https://img.shields.io/badge/Event--Driven-000000?style=flat-square" />
-  <img src="https://img.shields.io/badge/Local--First_CRDT-000000?style=flat-square" />
-  <img src="https://img.shields.io/badge/Clean_Architecture-000000?style=flat-square" />
-  <img src="https://img.shields.io/badge/CQRS-000000?style=flat-square" />
-</p>
-
-<p align="left">
-  <sub><strong>BACKEND</strong></sub><br/>
-  <img src="https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-000000?style=flat-square&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=white" />
-</p>
-
-<p align="left">
-  <sub><strong>CLIENT</strong></sub><br/>
-  <img src="https://img.shields.io/badge/Electron-000000?style=flat-square&logo=electron&logoColor=white" />
-  <img src="https://img.shields.io/badge/React_19-000000?style=flat-square&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-000000?style=flat-square&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/SCSS-000000?style=flat-square&logo=sass&logoColor=white" />
-</p>
-
-<p align="left">
-  <sub><strong>INFRA</strong></sub><br/>
-  <img src="https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-000000?style=flat-square&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nginx-000000?style=flat-square&logo=nginx&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-000000?style=flat-square&logo=github-actions&logoColor=white" />
-</p>
-
-<img src="./assets/matrix-divider.svg" width="100%" alt="---" />
+<br/>
 
 <img src="./assets/matrix-dino.svg" width="100%" alt="Matrix Chrome Dino Runner" />
 
