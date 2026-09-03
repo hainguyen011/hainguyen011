@@ -1,136 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" width="900" height="160">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 140" width="900" height="140">
   <defs>
     <style>
-      @keyframes glitch-clip-1 {
-        0%   { clip-path: polygon(0 0%,   100% 0%,   100% 12%,  0 12%);  transform: translate(-6px, 0); }
-        10%  { clip-path: polygon(0 28%,  100% 28%,  100% 34%,  0 34%);  transform: translate(6px,  0); }
-        20%  { clip-path: polygon(0 58%,  100% 58%,  100% 64%,  0 64%);  transform: translate(-6px, 0); }
-        30%  { clip-path: polygon(0 80%,  100% 80%,  100% 88%,  0 88%);  transform: translate(6px,  0); }
-        40%  { clip-path: polygon(0 5%,   100% 5%,   100% 18%,  0 18%);  transform: translate(-3px, 0); }
-        50%  { clip-path: polygon(0 44%,  100% 44%,  100% 52%,  0 52%);  transform: translate(3px,  0); }
-        60%  { clip-path: polygon(0 72%,  100% 72%,  100% 79%,  0 79%);  transform: translate(-6px, 0); }
-        70%  { clip-path: polygon(0 15%,  100% 15%,  100% 22%,  0 22%);  transform: translate(6px,  0); }
-        80%  { clip-path: polygon(0 91%,  100% 91%,  100% 99%,  0 99%);  transform: translate(-3px, 0); }
-        90%  { clip-path: polygon(0 36%,  100% 36%,  100% 48%,  0 48%);  transform: translate(3px,  0); }
-        100% { clip-path: polygon(0 0%,   100% 0%,   100% 12%,  0 12%);  transform: translate(-6px, 0); }
+      @keyframes rgb-tear {
+        0%,89%,100% { opacity: 0; }
+        90%  { clip-path: inset(22% 0 61% 0); transform: translate(-5px,0); opacity: 0.7; }
+        92%  { clip-path: inset(54% 0 28% 0); transform: translate(5px, 0); opacity: 0.7; }
+        94%  { clip-path: inset(8%  0 78% 0); transform: translate(-3px,0); opacity: 0.6; }
+        96%  { clip-path: inset(70% 0 10% 0); transform: translate(3px, 0); opacity: 0.7; }
+        98%  { clip-path: inset(38% 0 44% 0); transform: translate(-5px,0); opacity: 0.5; }
       }
-      @keyframes glitch-clip-2 {
-        0%   { clip-path: polygon(0 50%,  100% 50%,  100% 62%,  0 62%);  transform: translate(5px,  0); }
-        15%  { clip-path: polygon(0 20%,  100% 20%,  100% 28%,  0 28%);  transform: translate(-5px, 0); }
-        30%  { clip-path: polygon(0 74%,  100% 74%,  100% 83%,  0 83%);  transform: translate(5px,  0); }
-        45%  { clip-path: polygon(0 38%,  100% 38%,  100% 44%,  0 44%);  transform: translate(-5px, 0); }
-        60%  { clip-path: polygon(0 6%,   100% 6%,   100% 14%,  0 14%);  transform: translate(5px,  0); }
-        75%  { clip-path: polygon(0 88%,  100% 88%,  100% 95%,  0 95%);  transform: translate(-5px, 0); }
-        90%  { clip-path: polygon(0 56%,  100% 56%,  100% 65%,  0 65%);  transform: translate(5px,  0); }
-        100% { clip-path: polygon(0 50%,  100% 50%,  100% 62%,  0 62%);  transform: translate(5px,  0); }
-      }
-      @keyframes scanline-move {
-        0%   { transform: translateY(0px);   }
-        100% { transform: translateY(160px); }
+      @keyframes rgb-tear-b {
+        0%,89%,100% { opacity: 0; }
+        91%  { clip-path: inset(44% 0 38% 0); transform: translate(5px, 0); opacity: 0.6; }
+        93%  { clip-path: inset(15% 0 70% 0); transform: translate(-4px,0); opacity: 0.6; }
+        95%  { clip-path: inset(62% 0 20% 0); transform: translate(4px, 0); opacity: 0.6; }
+        97%  { clip-path: inset(30% 0 52% 0); transform: translate(-3px,0); opacity: 0.5; }
+        99%  { clip-path: inset(78% 0 5%  0); transform: translate(3px, 0); opacity: 0.6; }
       }
       @keyframes flicker {
-        0%,100% { opacity: 1;    }
-        92%     { opacity: 1;    }
-        93%     { opacity: 0.4;  }
-        94%     { opacity: 1;    }
-        95%     { opacity: 0.2;  }
-        96%     { opacity: 1;    }
-        97%     { opacity: 0.6;  }
-        98%     { opacity: 1;    }
+        0%,91%,100% { opacity:1; }
+        92% { opacity:0.6; }
+        93% { opacity:1;   }
+        94% { opacity:0.3; }
+        95% { opacity:1;   }
       }
-      @keyframes bar-scan {
-        0%   { transform: translateY(-20px); opacity: 0;   }
-        10%  { opacity: 0.12; }
-        90%  { opacity: 0.12; }
-        100% { transform: translateY(180px); opacity: 0;   }
+      .name {
+        font-family: 'JetBrains Mono','Courier New',monospace;
+        font-size: 48px; font-weight: 800; fill: #f1f5f9;
+        animation: flicker 7s infinite;
       }
-      .bg       { fill: #000000; }
-      .scanline { fill: none; stroke: #00DF8F; stroke-width: 1; opacity: 0.04; }
-      .bar      { fill: #00DF8F; opacity: 0; animation: bar-scan 4s linear infinite; }
-      .title    { font-family: 'JetBrains Mono', 'Courier New', monospace;
-                  font-size: 52px; font-weight: 800; fill: #00DF8F;
-                  animation: flicker 6s infinite; }
-      .title-r  { font-family: 'JetBrains Mono', 'Courier New', monospace;
-                  font-size: 52px; font-weight: 800; fill: #ff003c; opacity: 0.75;
-                  animation: glitch-clip-1 2.4s infinite steps(1, end); }
-      .title-b  { font-family: 'JetBrains Mono', 'Courier New', monospace;
-                  font-size: 52px; font-weight: 800; fill: #00e5ff; opacity: 0.75;
-                  animation: glitch-clip-2 2.4s infinite steps(1, end) 0.1s; }
-      .sub      { font-family: 'JetBrains Mono', 'Courier New', monospace;
-                  font-size: 12.5px; fill: #475569; letter-spacing: 3px; }
-      .prompt   { font-family: 'JetBrains Mono', 'Courier New', monospace;
-                  font-size: 11px; fill: #0284c7; }
-      .line-h   { stroke: #0284c7; stroke-width: 0.5; opacity: 0.4; }
+      .name-r {
+        font-family: 'JetBrains Mono','Courier New',monospace;
+        font-size: 48px; font-weight: 800; fill: #ff003c;
+        animation: rgb-tear 7s infinite;
+      }
+      .name-b {
+        font-family: 'JetBrains Mono','Courier New',monospace;
+        font-size: 48px; font-weight: 800; fill: #00e5ff;
+        animation: rgb-tear-b 7s infinite 0.05s;
+      }
+      .sub {
+        font-family: 'JetBrains Mono','Courier New',monospace;
+        font-size: 12px; fill: #475569; letter-spacing: 4px;
+      }
+      .accent { stroke: #0284c7; stroke-width: 1; opacity: 0.35; }
     </style>
   </defs>
 
-  <!-- Background -->
-  <rect class="bg" width="900" height="160"/>
+  <rect width="900" height="140" fill="#000000"/>
 
-  <!-- CRT Scanlines -->
-  <g>
-    <line class="scanline" x1="0" y1="2"   x2="900" y2="2"/>
-    <line class="scanline" x1="0" y1="6"   x2="900" y2="6"/>
-    <line class="scanline" x1="0" y1="10"  x2="900" y2="10"/>
-    <line class="scanline" x1="0" y1="14"  x2="900" y2="14"/>
-    <line class="scanline" x1="0" y1="18"  x2="900" y2="18"/>
-    <line class="scanline" x1="0" y1="22"  x2="900" y2="22"/>
-    <line class="scanline" x1="0" y1="26"  x2="900" y2="26"/>
-    <line class="scanline" x1="0" y1="30"  x2="900" y2="30"/>
-    <line class="scanline" x1="0" y1="34"  x2="900" y2="34"/>
-    <line class="scanline" x1="0" y1="38"  x2="900" y2="38"/>
-    <line class="scanline" x1="0" y1="42"  x2="900" y2="42"/>
-    <line class="scanline" x1="0" y1="46"  x2="900" y2="46"/>
-    <line class="scanline" x1="0" y1="50"  x2="900" y2="50"/>
-    <line class="scanline" x1="0" y1="54"  x2="900" y2="54"/>
-    <line class="scanline" x1="0" y1="58"  x2="900" y2="58"/>
-    <line class="scanline" x1="0" y1="62"  x2="900" y2="62"/>
-    <line class="scanline" x1="0" y1="66"  x2="900" y2="66"/>
-    <line class="scanline" x1="0" y1="70"  x2="900" y2="70"/>
-    <line class="scanline" x1="0" y1="74"  x2="900" y2="74"/>
-    <line class="scanline" x1="0" y1="78"  x2="900" y2="78"/>
-    <line class="scanline" x1="0" y1="82"  x2="900" y2="82"/>
-    <line class="scanline" x1="0" y1="86"  x2="900" y2="86"/>
-    <line class="scanline" x1="0" y1="90"  x2="900" y2="90"/>
-    <line class="scanline" x1="0" y1="94"  x2="900" y2="94"/>
-    <line class="scanline" x1="0" y1="98"  x2="900" y2="98"/>
-    <line class="scanline" x1="0" y1="102" x2="900" y2="102"/>
-    <line class="scanline" x1="0" y1="106" x2="900" y2="106"/>
-    <line class="scanline" x1="0" y1="110" x2="900" y2="110"/>
-    <line class="scanline" x1="0" y1="114" x2="900" y2="114"/>
-    <line class="scanline" x1="0" y1="118" x2="900" y2="118"/>
-    <line class="scanline" x1="0" y1="122" x2="900" y2="122"/>
-    <line class="scanline" x1="0" y1="126" x2="900" y2="126"/>
-    <line class="scanline" x1="0" y1="130" x2="900" y2="130"/>
-    <line class="scanline" x1="0" y1="134" x2="900" y2="134"/>
-    <line class="scanline" x1="0" y1="138" x2="900" y2="138"/>
-    <line class="scanline" x1="0" y1="142" x2="900" y2="142"/>
-    <line class="scanline" x1="0" y1="146" x2="900" y2="146"/>
-    <line class="scanline" x1="0" y1="150" x2="900" y2="150"/>
-    <line class="scanline" x1="0" y1="154" x2="900" y2="154"/>
-    <line class="scanline" x1="0" y1="158" x2="900" y2="158"/>
-  </g>
+  <!-- Accent lines — minimal, intentional -->
+  <line class="accent" x1="0" y1="30"  x2="900" y2="30"/>
+  <line class="accent" x1="0" y1="111" x2="900" y2="111"/>
 
-  <!-- Scanning bar -->
-  <rect class="bar" x="0" y="0" width="900" height="20" rx="0"/>
+  <!-- RGB glitch layers — only fire during the tear animation -->
+  <text class="name-r" x="450" y="90" text-anchor="middle">HAI NGUYEN</text>
+  <text class="name-b" x="450" y="90" text-anchor="middle">HAI NGUYEN</text>
+  <!-- Base -->
+  <text class="name"   x="450" y="90" text-anchor="middle">HAI NGUYEN</text>
 
-  <!-- Corner decorations -->
-  <text class="prompt" x="18" y="20">[ SYS ]</text>
-  <text class="prompt" x="18" y="148">[ I2FLABS // KERNEL v0.9.1 ]</text>
-  <text class="prompt" x="760" y="20">[ ONLINE ]</text>
-  <text class="prompt" x="736" y="148">[ BREACH DETECTED ]</text>
-
-  <!-- Horizontal dividers -->
-  <line class="line-h" x1="18" y1="26"  x2="882" y2="26"/>
-  <line class="line-h" x1="18" y1="134" x2="882" y2="134"/>
-
-  <!-- Red glitch layer -->
-  <text class="title-r" x="450" y="105" text-anchor="middle">HAI NGUYEN</text>
-  <!-- Blue glitch layer -->
-  <text class="title-b" x="450" y="105" text-anchor="middle">HAI NGUYEN</text>
-  <!-- Base text (on top) -->
-  <text class="title"   x="450" y="105" text-anchor="middle">HAI NGUYEN</text>
-
-  <!-- Subtitle -->
-  <text class="sub" x="450" y="126" text-anchor="middle">SYSTEMS ARCHITECT  /  AI SYSTEMS FOUNDER  @  I2FLABS</text>
+  <text class="sub" x="450" y="127" text-anchor="middle">SYSTEMS ARCHITECT  /  AI SYSTEMS FOUNDER  @  I2FLABS</text>
 </svg>
