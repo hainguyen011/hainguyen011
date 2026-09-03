@@ -8,7 +8,7 @@
 
 <!-- Typing banner — size 18, no background (transparent service) -->
 <img
-  src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&height=36&lines=Autonomous+agent+kernel+loaded+%E2%80%94+ACTIVE;47+cognitive+threads+initialized;Aevum+OS+build+sequence+resumed;%5BERROR%5D+Human+limitations+not+found;Compiling+the+future...+ETA%3A+unknown"
+  src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=18&pause=1000&color=FFFFFF&center=true&vCenter=true&width=700&height=36&lines=Autonomous+agent+kernel+loaded+%E2%80%94+ACTIVE;47+cognitive+threads+initialized;Aevum+OS+build+sequence+resumed;%5BERROR%5D+Human+limitations+not+found;Compiling+the+future...+ETA%3A+unknown"
   alt="System log"
 />
 
