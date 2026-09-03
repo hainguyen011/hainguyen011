@@ -89,8 +89,6 @@
 
 <img src="./assets/matrix-divider.svg" width="100%" alt="---" />
 
-## OFFLINE RUNNER // DINO.EXE
-
 <img src="./assets/matrix-dino.svg" width="100%" alt="Matrix Chrome Dino Runner" />
 
 <img src="./assets/matrix-divider.svg" width="100%" alt="---" />
