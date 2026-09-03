@@ -106,6 +106,8 @@
   <tr>
     <td width="18%" valign="middle"><strong>ARCHITECTURE</strong></td>
     <td width="82%" valign="middle">
+      <img src="https://img.shields.io/badge/Microservices-000000?style=flat-square" />
+      <img src="https://img.shields.io/badge/Modular-000000?style=flat-square" />
       <img src="https://img.shields.io/badge/DDD-000000?style=flat-square" />
       <img src="https://img.shields.io/badge/Event--Driven-000000?style=flat-square" />
       <img src="https://img.shields.io/badge/Local--First_CRDT-000000?style=flat-square" />
@@ -160,7 +162,7 @@
 
 <br/>
 
-<img src="./assets/matrix-dino.svg" width="100%" alt="Matrix Chrome Dino Runner" />
+<img src="./assets/matrix-drone.svg" width="100%" alt="Matrix Chrome Dino Runner" />
 
 <img src="./assets/matrix-divider.svg" width="100%" alt="---" />
 
