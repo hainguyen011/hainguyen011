@@ -96,6 +96,7 @@
     <td width="18%" valign="middle"><strong>AGENTIC</strong></td>
     <td width="82%" valign="middle">
       <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=anthropic&logoColor=white" />
+      <img src="https://img.shields.io/badge/Multi--Agent_Swarm-000000?style=flat-square" />
       <img src="https://img.shields.io/badge/Gemini_Flash-000000?style=flat-square&logo=google&logoColor=white" />
       <img src="https://img.shields.io/badge/Qdrant-000000?style=flat-square" />
       <img src="https://img.shields.io/badge/Neo4j-000000?style=flat-square&logo=neo4j&logoColor=white" />
@@ -113,11 +114,22 @@
     </td>
   </tr>
   <tr>
+    <td width="18%" valign="middle"><strong>SECURITY</strong></td>
+    <td width="82%" valign="middle">
+      <img src="https://img.shields.io/badge/Ed25519-000000?style=flat-square" />
+      <img src="https://img.shields.io/badge/Zero--Trust-000000?style=flat-square" />
+      <img src="https://img.shields.io/badge/Machine_Binding-000000?style=flat-square" />
+      <img src="https://img.shields.io/badge/Merkle_Proofs-000000?style=flat-square" />
+      <img src="https://img.shields.io/badge/AST_Hashing-000000?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
     <td width="18%" valign="middle"><strong>BACKEND</strong></td>
     <td width="82%" valign="middle">
       <img src="https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=white" />
       <img src="https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=nodedotjs&logoColor=white" />
       <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" />
+      <img src="https://img.shields.io/badge/Supabase-000000?style=flat-square&logo=supabase&logoColor=white" />
       <img src="https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white" />
       <img src="https://img.shields.io/badge/Redis-000000?style=flat-square&logo=redis&logoColor=white" />
       <img src="https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=white" />
@@ -128,6 +140,7 @@
     <td width="82%" valign="middle">
       <img src="https://img.shields.io/badge/Electron-000000?style=flat-square&logo=electron&logoColor=white" />
       <img src="https://img.shields.io/badge/React_19-000000?style=flat-square&logo=react&logoColor=white" />
+      <img src="https://img.shields.io/badge/React_Flow-000000?style=flat-square" />
       <img src="https://img.shields.io/badge/Vite-000000?style=flat-square&logo=vite&logoColor=white" />
       <img src="https://img.shields.io/badge/SCSS-000000?style=flat-square&logo=sass&logoColor=white" />
     </td>
