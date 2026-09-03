@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 190" width="100%" height="190" shape-rendering="crispEdges">
   <defs>
     <style>
@@ -91,11 +92,11 @@
 
   <!-- 100% Clean Transparent Canvas -->
 
-  <!-- 1. CHROME BROWSER "NO INTERNET" AI-ERA DEV MEME HEADER -->
+  <!-- 1. CHROME BROWSER "NO INTERNET" AI-ERA DEV MEME HEADER (Pure ASCII) -->
   <text x="24" y="24" font-size="11.5" font-weight="700" fill="#ffffff" opacity="0.9" letter-spacing="2">[ AI NOT CONNECTED // ERR_AI_DISCONNECTED ]</text>
   <text x="926" y="24" text-anchor="end" font-size="10.5" font-weight="600" fill="#ffffff" opacity="0.75" letter-spacing="1.5">PANIC: FORCED TO CODE MANUALLY // TOKENS: 0</text>
   
-  <text x="24" y="42" font-size="9.5" font-weight="500" fill="#ffffff" opacity="0.45" letter-spacing="1">Try: Checking your API key &amp; quota • Purging prompt context • Remembering basic syntax without LLM</text>
+  <text x="24" y="42" font-size="9.5" font-weight="500" fill="#ffffff" opacity="0.45" letter-spacing="1">Try: Checking your API key &amp; quota // Purging prompt context // Remembering basic syntax without LLM</text>
   <text x="926" y="42" text-anchor="end" font-size="9" font-weight="500" fill="#ffffff" opacity="0.4" letter-spacing="1">CHROME DINO PROTOCOL // AI EXTINCTION SURVIVAL</text>
 
   <!-- 2. Clean Ground Horizon Line -->
