@@ -12,7 +12,15 @@
 
   <br/>
 
-  <!-- 2. MATRIX COMMAND PROMPT TYPING -->
+  <!-- 2. BIO & IDENTITY DESCRIPTION -->
+  <p align="center">
+    <strong>Systems Architect &amp; AI Systems Founder @ <a href="https://github.com/hainguyen011">I2FLabs</a></strong> &bull; Creator of <a href="https://github.com/hainguyen011/Aevum-OS"><strong>Aevum OS</strong></a> &amp; <a href="https://github.com/hainguyen011/Aevum-cloud"><strong>PiperNet</strong></a><br/>
+    <sub>Engineering autonomous multi-agent operating systems, local-first CRDT meshes, and spiking neural dynamics.</sub>
+  </p>
+
+  <br/>
+
+  <!-- 3. MATRIX COMMAND PROMPT TYPING -->
   <img
     src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=17&pause=1000&color=FFFFFF&center=true&vCenter=true&width=760&height=36&lines=Autonomous+agent+kernel+loaded+%E2%80%94+ACTIVE;47+cognitive+threads+initialized;Aevum+OS+build+sequence+resumed;%5BERROR%5D+Human+limitations+not+found;Compiling+the+future...+ETA%3A+unknown"
     alt="System log"
