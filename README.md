@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="./assets/terminal-slides.svg" width="100%" alt="Hai Nguyen — Terminal" />
+<img src="./assets/name-scramble.svg" width="100%" alt="HAI NGUYEN" />
+
+
 
 <br/>
 

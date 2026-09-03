@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 120" width="680" height="120">
+<defs><style>
+text { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif; }
+@keyframes f0{0%{opacity:0}0.000%{opacity:0}0.000%{opacity:1}1.944%{opacity:1}1.944%{opacity:0}100%{opacity:0}}
+.f0{animation:f0 3.60s steps(1,end) infinite}
+@keyframes f1{0%{opacity:0}1.944%{opacity:0}1.944%{opacity:1}3.889%{opacity:1}3.889%{opacity:0}100%{opacity:0}}
+.f1{animation:f1 3.60s steps(1,end) infinite}
+@keyframes f2{0%{opacity:0}3.889%{opacity:0}3.889%{opacity:1}5.833%{opacity:1}5.833%{opacity:0}100%{opacity:0}}
+.f2{animation:f2 3.60s steps(1,end) infinite}
+@keyframes f3{0%{opacity:0}5.833%{opacity:0}5.833%{opacity:1}7.778%{opacity:1}7.778%{opacity:0}100%{opacity:0}}
+.f3{animation:f3 3.60s steps(1,end) infinite}
+@keyframes f4{0%{opacity:0}7.778%{opacity:0}7.778%{opacity:1}9.722%{opacity:1}9.722%{opacity:0}100%{opacity:0}}
+.f4{animation:f4 3.60s steps(1,end) infinite}
+@keyframes f5{0%{opacity:0}9.722%{opacity:0}9.722%{opacity:1}11.667%{opacity:1}11.667%{opacity:0}100%{opacity:0}}
+.f5{animation:f5 3.60s steps(1,end) infinite}
+@keyframes f6{0%{opacity:0}11.667%{opacity:0}11.667%{opacity:1}13.611%{opacity:1}13.611%{opacity:0}100%{opacity:0}}
+.f6{animation:f6 3.60s steps(1,end) infinite}
+@keyframes f7{0%{opacity:0}13.611%{opacity:0}13.611%{opacity:1}15.556%{opacity:1}15.556%{opacity:0}100%{opacity:0}}
+.f7{animation:f7 3.60s steps(1,end) infinite}
+@keyframes f8{0%{opacity:0}15.556%{opacity:0}15.556%{opacity:1}17.500%{opacity:1}17.500%{opacity:0}100%{opacity:0}}
+.f8{animation:f8 3.60s steps(1,end) infinite}
+@keyframes f9{0%{opacity:0}17.500%{opacity:0}17.500%{opacity:1}19.444%{opacity:1}19.444%{opacity:0}100%{opacity:0}}
+.f9{animation:f9 3.60s steps(1,end) infinite}
+@keyframes f10{0%{opacity:0}19.444%{opacity:0}19.444%{opacity:1}80.556%{opacity:1}80.556%{opacity:0}100%{opacity:0}}
+.f10{animation:f10 3.60s steps(1,end) infinite}
+@keyframes f11{0%{opacity:0}80.556%{opacity:0}80.556%{opacity:1}82.500%{opacity:1}82.500%{opacity:0}100%{opacity:0}}
+.f11{animation:f11 3.60s steps(1,end) infinite}
+@keyframes f12{0%{opacity:0}82.500%{opacity:0}82.500%{opacity:1}84.444%{opacity:1}84.444%{opacity:0}100%{opacity:0}}
+.f12{animation:f12 3.60s steps(1,end) infinite}
+@keyframes f13{0%{opacity:0}84.444%{opacity:0}84.444%{opacity:1}86.389%{opacity:1}86.389%{opacity:0}100%{opacity:0}}
+.f13{animation:f13 3.60s steps(1,end) infinite}
+@keyframes f14{0%{opacity:0}86.389%{opacity:0}86.389%{opacity:1}88.333%{opacity:1}88.333%{opacity:0}100%{opacity:0}}
+.f14{animation:f14 3.60s steps(1,end) infinite}
+@keyframes f15{0%{opacity:0}88.333%{opacity:0}88.333%{opacity:1}90.278%{opacity:1}90.278%{opacity:0}100%{opacity:0}}
+.f15{animation:f15 3.60s steps(1,end) infinite}
+@keyframes f16{0%{opacity:0}90.278%{opacity:0}90.278%{opacity:1}92.222%{opacity:1}92.222%{opacity:0}100%{opacity:0}}
+.f16{animation:f16 3.60s steps(1,end) infinite}
+@keyframes f17{0%{opacity:0}92.222%{opacity:0}92.222%{opacity:1}94.167%{opacity:1}94.167%{opacity:0}100%{opacity:0}}
+.f17{animation:f17 3.60s steps(1,end) infinite}
+@keyframes f18{0%{opacity:0}94.167%{opacity:0}94.167%{opacity:1}96.111%{opacity:1}96.111%{opacity:0}100%{opacity:0}}
+.f18{animation:f18 3.60s steps(1,end) infinite}
+@keyframes f19{0%{opacity:0}96.111%{opacity:0}96.111%{opacity:1}98.056%{opacity:1}98.056%{opacity:0}100%{opacity:0}}
+.f19{animation:f19 3.60s steps(1,end) infinite}
+@keyframes f20{0%{opacity:0}98.056%{opacity:0}98.056%{opacity:1}100.000%{opacity:1}100.000%{opacity:0}100%{opacity:0}}
+.f20{animation:f20 3.60s steps(1,end) infinite}
+
+</style></defs>
+<text class="f0" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#3fb950" letter-spacing="2">@N[ J\N}O}</text>
+<text class="f1" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#3fb950" letter-spacing="2">K@I*KBFN!U</text>
+<text class="f2" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#58a6ff" letter-spacing="2">5%XU/FH3*9</text>
+<text class="f3" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#3fb950" letter-spacing="2">ZJ1H|0T^Z!</text>
+<text class="f4" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#f85149" letter-spacing="2">[W^ V&gt;MYL4</text>
+<text class="f5" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#3fb950" letter-spacing="2">@~I NGST33</text>
+<text class="f6" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#58a6ff" letter-spacing="2">}&amp;* 2ZF*]&gt;</text>
+<text class="f7" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#3fb950" letter-spacing="2">PAN {52}{$</text>
+<text class="f8" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#3fb950" letter-spacing="2">H[R 62U[7{</text>
+<text class="f9" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#f85149" letter-spacing="2">W*@ /GUY]N</text>
+<text class="f10" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#e6edf3" letter-spacing="2">HAI NGUYEN</text>
+<text class="f10" x="340" y="104" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="11" fill="#8b949e" letter-spacing="3.5">SYSTEMS ARCHITECT  /  AI SYSTEMS FOUNDER  @  I2FLABS</text>
+<text class="f11" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#3fb950" letter-spacing="2">KA] LGUY^N</text>
+<text class="f12" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#3fb950" letter-spacing="2">H&gt;I 5XUYFN</text>
+<text class="f13" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#58a6ff" letter-spacing="2">P9I~NTC]QN</text>
+<text class="f14" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#3fb950" letter-spacing="2">73BRNG[MEB</text>
+<text class="f15" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#f85149" letter-spacing="2">@IK NG&gt;W$G</text>
+<text class="f16" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#3fb950" letter-spacing="2">IS4 5RI*EP</text>
+<text class="f17" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#58a6ff" letter-spacing="2">E73 H44[QN</text>
+<text class="f18" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#3fb950" letter-spacing="2">$&lt;| 7*YCL5</text>
+<text class="f19" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#3fb950" letter-spacing="2">6|@ 4N@O!Y</text>
+<text class="f20" x="340" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#f85149" letter-spacing="2">P]5WE{/YLG</text>
+
+</svg>
