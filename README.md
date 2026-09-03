@@ -2,15 +2,23 @@
 
 <img src="./assets/terminal-slides.svg" width="100%" alt="Hai Nguyen — Terminal" />
 
+<br/>
+
+<!-- Typing banner — size 18, no background (transparent service) -->
+<img
+  src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&height=36&lines=Autonomous+agent+kernel+loaded+%E2%80%94+ACTIVE;47+cognitive+threads+initialized;Aevum+OS+build+sequence+resumed;%5BERROR%5D+Human+limitations+not+found;Compiling+the+future...+ETA%3A+unknown"
+  alt="System log"
+/>
+
 <br/><br/>
 
-![](https://img.shields.io/badge/Founder-I2FLabs-000?style=flat-square&labelColor=000&color=0284c7)
+![](https://img.shields.io/badge/Founder-I2FLabs-161b22?style=flat-square&labelColor=21262d&color=1f6feb&logo=none)
 &nbsp;
-![](https://img.shields.io/badge/Role-Systems%20Architect-000?style=flat-square&labelColor=000&color=00DF8F)
+![](https://img.shields.io/badge/Role-Systems%20Architect-161b22?style=flat-square&labelColor=21262d&color=238636)
 &nbsp;
-![](https://img.shields.io/badge/Focus-Autonomous%20Multi--Agent%20OS-000?style=flat-square&labelColor=000&color=7B61FF)
+![](https://img.shields.io/badge/Focus-Multi--Agent%20OS-161b22?style=flat-square&labelColor=21262d&color=8957e5)
 &nbsp;
-![](https://komarev.com/ghpvc/?username=hainguyen011&style=flat-square&color=0284c7&label=profile+reads)
+![](https://komarev.com/ghpvc/?username=hainguyen011&style=flat-square&color=1f6feb&label=profile+reads)
 
 </div>
 
@@ -49,7 +57,7 @@
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
         <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
-        <img src="https://img.shields.io/badge/CRDT-00DF8F?style=flat-square" />
+        <img src="https://img.shields.io/badge/CRDT-238636?style=flat-square" />
       </p>
     </td>
   </tr>
@@ -61,17 +69,17 @@
 
 <div align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=hainguyen011&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=00DF8F&icon_color=0284C7&text_color=94a3b8&include_all_commits=true&count_private=true"
+    src="https://github-readme-stats.vercel.app/api?username=hainguyen011&show_icons=true&theme=github_dark&hide_border=true&bg_color=161b22&title_color=58a6ff&icon_color=3fb950&text_color=8b949e&include_all_commits=true&count_private=true"
     height="165"
   />
   &nbsp;
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=hainguyen011&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=00DF8F&text_color=94a3b8&langs_count=8"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=hainguyen011&layout=compact&theme=github_dark&hide_border=true&bg_color=161b22&title_color=58a6ff&text_color=8b949e&langs_count=8"
     height="165"
   />
   <br/><br/>
   <img
-    src="https://streak-stats.demolab.com/?user=hainguyen011&theme=tokyonight&hide_border=true&background=00000000&ring=00DF8F&fire=0284C7&currStreakLabel=00DF8F&sideLabels=94a3b8&sideNums=ffffff&dates=94a3b8"
+    src="https://streak-stats.demolab.com/?user=hainguyen011&theme=github-dark-blue&hide_border=true&background=161b22&ring=58a6ff&fire=3fb950&currStreakLabel=58a6ff&sideLabels=8b949e&sideNums=e6edf3&dates=8b949e"
   />
 </div>
 
