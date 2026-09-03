@@ -81,72 +81,9 @@
 
 <img src="./assets/matrix-divider.svg" width="100%" alt="---" />
 
-<div align="center">
+## LOADED MODULES
 
-  <h2>LOADED MODULES</h2>
-
-  <p>
-    <code>agentic</code><br/>
-    <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=anthropic&logoColor=white" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Gemini_Flash-000000?style=flat-square&logo=google&logoColor=white" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Qdrant-000000?style=flat-square" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Neo4j-000000?style=flat-square&logo=neo4j&logoColor=white" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Spiking_LIF-000000?style=flat-square" />
-  </p>
-
-  <p>
-    <code>architecture</code><br/>
-    <img src="https://img.shields.io/badge/DDD-000000?style=flat-square" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Event--Driven-000000?style=flat-square" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Local--First_CRDT-000000?style=flat-square" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Clean_Architecture-000000?style=flat-square" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/CQRS-000000?style=flat-square" />
-  </p>
-
-  <p>
-    <code>backend</code><br/>
-    <img src="https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=white" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=nodedotjs&logoColor=white" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Redis-000000?style=flat-square&logo=redis&logoColor=white" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=white" />
-  </p>
-
-  <p>
-    <code>client</code><br/>
-    <img src="https://img.shields.io/badge/Electron-000000?style=flat-square&logo=electron&logoColor=white" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/React_19-000000?style=flat-square&logo=react&logoColor=61DAFB" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Vite-000000?style=flat-square&logo=vite&logoColor=white" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/SCSS-000000?style=flat-square&logo=sass&logoColor=white" />
-  </p>
-
-  <p>
-    <code>infra</code><br/>
-    <img src="https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=white" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Kubernetes-000000?style=flat-square&logo=kubernetes&logoColor=white" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/Nginx-000000?style=flat-square&logo=nginx&logoColor=white" />
-    &nbsp;
-    <img src="https://img.shields.io/badge/GitHub_Actions-000000?style=flat-square&logo=github-actions&logoColor=white" />
-  </p>
+<img src="./assets/matrix-modules.svg" width="100%" alt="LOADED MODULES // MATRIX" />
 
 </div>
 
