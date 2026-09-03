@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/name-scramble.svg" width="100%" alt="HAI NGUYEN" />
+<img src="./assets/matrix-banner.svg" width="100%" alt="HAI NGUYEN // MATRIX" />
 
 
 
