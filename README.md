@@ -47,7 +47,7 @@
 
 <img src="./assets/matrix-divider.svg" width="100%" alt="---" />
 
-## WHO AM I // SYSTEM_ORIGIN
+## WHO AM I ?
 
 > *"The best way to predict the future is not to wait for it, but to architect it from the bare metal up."*
 
