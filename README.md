@@ -55,9 +55,9 @@ Hey, I'm **Hai Nguyen** &mdash; a Systems Architect, AI Systems Builder, and dee
 
 Driven by an insatiable curiosity for how complex systems think, communicate, and evolve, I spend my days (and late nights) at the frontier where **distributed architectures meet sovereign machine intelligence**.
 
-* 🌌 **The Explorer's Mindset:** I don't just build applications; I love dissecting operating system internals, experimenting with neuromorphic brain-inspired models (*Spiking LIF, STDP plasticity*), and pushing the envelope of autonomous multi-agent cognition.
-* ⚡ **Architectural Craftsmanship:** From local-first Merkle-CRDT synchronization meshes to Zero-Trust Ed25519 cryptographic verification, I believe in building systems that are sovereign, resilient, and crafted with obsessive precision.
-* 🚀 **Building the Future @ I2FLabs:** As the founder of **Innovation To Future Lab**, I turn ambitious sci-fi ideas into running code &mdash; architecting **Aevum OS** (*sovereign desktop AI kernel*) and **PiperNet** (*decentralized P2P agent mesh*).
+* **The Explorer's Mindset:** I don't just build applications; I love dissecting operating system internals, experimenting with neuromorphic brain-inspired models (*Spiking LIF, STDP plasticity*), and pushing the envelope of autonomous multi-agent cognition.
+* **Architectural Craftsmanship:** From local-first Merkle-CRDT synchronization meshes to Zero-Trust Ed25519 cryptographic verification, I believe in building systems that are sovereign, resilient, and crafted with obsessive precision.
+* **Building the Future @ I2FLabs:** As the founder of **Innovation To Future Lab**, I turn ambitious sci-fi ideas into running code &mdash; architecting **Aevum OS** (*sovereign desktop AI kernel*) and **PiperNet** (*decentralized P2P agent mesh*).
 
 Always curious, constantly experimenting, and forever passionate about writing software that feels like magic from the future.
 
